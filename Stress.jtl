@@ -1,0 +1,735 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1741675534759,1062,POST Login 1,200,OK,Stress Test 1-1,text,true,,1260,285,11,11,https://thinking-tester-contact-list.herokuapp.com/users/login,1062,0,770
+1741675534866,1060,POST Login 2,200,OK,Stress Test 1-2,text,true,,1268,285,12,12,https://thinking-tester-contact-list.herokuapp.com/users/login,1060,0,759
+1741675534971,1060,POST Login 3,200,OK,Stress Test 1-3,text,true,,1268,285,13,13,https://thinking-tester-contact-list.herokuapp.com/users/login,1060,0,764
+1741675535822,260,ADD Contact 1,201,Created,Stress Test 1-1,text,true,,1065,855,14,14,https://thinking-tester-contact-list.herokuapp.com/contacts,260,0,0
+1741675535821,260,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-1,,true,,1065,855,14,14,null,260,1,0
+1741675535066,1028,POST Login 4,200,OK,Stress Test 1-4,text,true,,1268,285,14,14,https://thinking-tester-contact-list.herokuapp.com/users/login,1028,0,734
+1741675535171,1049,POST Login 5,200,OK,Stress Test 1-5,text,true,,1268,285,15,15,https://thinking-tester-contact-list.herokuapp.com/users/login,1049,0,755
+1741675535927,295,ADD Contact 2,201,Created,Stress Test 1-2,text,true,,1065,855,15,15,https://thinking-tester-contact-list.herokuapp.com/contacts,295,0,0
+1741675535927,295,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-2,,true,,1065,855,15,15,null,295,0,0
+1741675535266,1018,POST Login 6,200,OK,Stress Test 1-6,text,true,,1269,285,16,16,https://thinking-tester-contact-list.herokuapp.com/users/login,1018,0,732
+1741675536031,271,ADD Contact 3,201,Created,Stress Test 1-3,text,true,,1065,855,16,16,https://thinking-tester-contact-list.herokuapp.com/contacts,271,0,0
+1741675536031,271,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-3,,true,,1065,855,16,16,null,271,0,0
+1741675536082,261,GET Contact 1,200,OK,Stress Test 1-1,text,true,,1060,518,16,16,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb903,261,0,0
+1741675536082,261,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-1,,true,,1060,518,16,16,null,261,0,0
+1741675536094,257,ADD Contact 4,201,Created,Stress Test 1-4,text,true,,1065,855,16,16,https://thinking-tester-contact-list.herokuapp.com/contacts,257,0,0
+1741675536094,257,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-4,,true,,1065,855,16,16,null,257,0,0
+1741675535366,1025,POST Login 7,200,OK,Stress Test 1-7,text,true,,1269,285,17,17,https://thinking-tester-contact-list.herokuapp.com/users/login,1025,0,738
+1741675536222,279,GET Contact 2,200,OK,Stress Test 1-2,text,true,,1060,518,18,18,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb905,279,0,0
+1741675536222,279,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-2,,true,,1060,518,18,18,null,279,0,0
+1741675535461,1041,POST Login 8,200,OK,Stress Test 1-8,text,true,,1269,285,18,18,https://thinking-tester-contact-list.herokuapp.com/users/login,1041,0,748
+1741675536220,291,ADD Contact 5,201,Created,Stress Test 1-5,text,true,,1065,855,18,18,https://thinking-tester-contact-list.herokuapp.com/contacts,291,0,0
+1741675536220,291,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-5,,true,,1065,855,18,18,null,291,0,0
+1741675536285,256,ADD Contact 6,201,Created,Stress Test 1-6,text,true,,1065,855,18,18,https://thinking-tester-contact-list.herokuapp.com/contacts,256,0,0
+1741675536285,256,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-6,,true,,1065,855,18,18,null,256,0,0
+1741675536302,264,GET Contact 3,200,OK,Stress Test 1-3,text,true,,1060,518,19,19,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb907,264,0,0
+1741675536302,264,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-3,,true,,1060,518,19,19,null,264,1,0
+1741675535566,1031,POST Login 9,200,OK,Stress Test 1-9,text,true,,1269,285,19,19,https://thinking-tester-contact-list.herokuapp.com/users/login,1031,0,737
+1741675536351,261,GET Contact 4,200,OK,Stress Test 1-4,text,true,,1060,518,19,19,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf6d0f9bb00135ff50d,261,0,0
+1741675536351,261,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-4,,true,,1060,518,19,19,null,261,0,0
+1741675536343,270,PUT Contact 1,200,OK,Stress Test 1-1,text,true,,1069,940,19,19,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb903,270,0,0
+1741675536391,262,ADD Contact 7,201,Created,Stress Test 1-7,text,true,,1065,855,19,19,https://thinking-tester-contact-list.herokuapp.com/contacts,262,0,0
+1741675536391,262,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-7,,true,,1065,855,19,19,null,262,0,0
+1741675535671,1029,POST Login 10,200,OK,Stress Test 1-10,text,true,,1269,285,20,20,https://thinking-tester-contact-list.herokuapp.com/users/login,1029,0,739
+1741675536502,269,ADD Contact 8,201,Created,Stress Test 1-8,text,true,,1065,855,21,21,https://thinking-tester-contact-list.herokuapp.com/contacts,269,0,0
+1741675536502,269,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-8,,true,,1065,855,21,21,null,269,0,0
+1741675536501,289,PUT Contact 2,200,OK,Stress Test 1-2,text,true,,1069,940,21,21,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb905,289,0,0
+1741675536511,282,GET Contact 5,200,OK,Stress Test 1-5,text,true,,1060,518,21,21,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb90c,282,0,0
+1741675536511,282,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-5,,true,,1060,518,21,21,null,282,0,0
+1741675536541,262,GET Contact 6,200,OK,Stress Test 1-6,text,true,,1060,518,21,21,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb90d,262,0,0
+1741675536541,262,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-6,,true,,1060,518,21,21,null,262,0,0
+1741675535762,1047,POST Login 11,200,OK,Stress Test 1-11,text,true,,1269,285,21,21,https://thinking-tester-contact-list.herokuapp.com/users/login,1047,0,751
+1741675536567,268,PUT Contact 3,200,OK,Stress Test 1-3,text,true,,1069,940,21,21,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb907,268,0,0
+1741675536598,257,ADD Contact 9,201,Created,Stress Test 1-9,text,true,,1065,855,22,22,https://thinking-tester-contact-list.herokuapp.com/contacts,257,0,0
+1741675536598,257,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-9,,true,,1065,855,22,22,null,257,0,0
+1741675536612,260,PUT Contact 4,200,OK,Stress Test 1-4,text,true,,1069,940,22,22,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf6d0f9bb00135ff50d,260,0,0
+1741675536613,287,PATCH Contact 1,200,OK,Stress Test 1-1,text,true,,1070,680,22,22,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb903,287,0,0
+1741675535856,1083,POST Login 12,200,OK,Stress Test 1-12,text,true,,1269,285,22,22,https://thinking-tester-contact-list.herokuapp.com/users/login,1083,0,761
+1741675536701,259,ADD Contact 10,201,Created,Stress Test 1-10,text,true,,1065,855,23,23,https://thinking-tester-contact-list.herokuapp.com/contacts,259,0,0
+1741675536701,259,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-10,,true,,1065,855,23,23,null,259,0,0
+1741675536653,331,GET Contact 7,200,OK,Stress Test 1-7,text,true,,1060,518,23,23,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb910,331,0,0
+1741675536653,331,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-7,,true,,1060,518,23,23,null,331,0,0
+1741675535956,1075,POST Login 13,200,OK,Stress Test 1-13,text,true,,1269,285,23,23,https://thinking-tester-contact-list.herokuapp.com/users/login,1074,0,759
+1741675536772,262,GET Contact 8,200,OK,Stress Test 1-8,text,true,,1060,518,23,23,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb911,262,0,0
+1741675536772,262,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-8,,true,,1060,518,23,23,null,262,0,0
+1741675536793,259,PUT Contact 5,200,OK,Stress Test 1-5,text,true,,1069,940,23,23,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb90c,259,0,0
+1741675536790,267,PATCH Contact 2,200,OK,Stress Test 1-2,text,true,,1070,680,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb905,267,0,0
+1741675536056,1029,POST Login 14,200,OK,Stress Test 1-14,text,true,,1269,285,24,24,https://thinking-tester-contact-list.herokuapp.com/users/login,1029,0,740
+1741675536803,288,PUT Contact 6,200,OK,Stress Test 1-6,text,true,,1069,940,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb90d,288,0,0
+1741675536809,289,ADD Contact 11,201,Created,Stress Test 1-11,text,true,,1065,855,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts,289,0,0
+1741675536809,289,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-11,,true,,1065,855,24,24,null,289,0,0
+1741675536856,253,GET Contact 9,200,OK,Stress Test 1-9,text,true,,1060,518,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff515,253,0,0
+1741675536855,253,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-9,,true,,1060,518,24,24,null,253,1,0
+1741675536836,274,PATCH Contact 3,200,OK,Stress Test 1-3,text,true,,1070,680,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb907,274,0,0
+1741675536873,259,PATCH Contact 4,200,OK,Stress Test 1-4,text,true,,1070,680,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf6d0f9bb00135ff50d,259,0,0
+1741675536900,259,DELETE Contact 1,200,OK,Stress Test 1-1,text,true,,760,656,25,25,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb903,259,0,0
+1741675536939,272,ADD Contact 12,201,Created,Stress Test 1-12,text,true,,1065,855,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts,272,0,0
+1741675536939,272,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-12,,true,,1065,855,24,24,null,272,1,0
+1741675536156,1062,POST Login 15,200,OK,Stress Test 1-15,text,true,,1269,285,24,24,https://thinking-tester-contact-list.herokuapp.com/users/login,1062,0,761
+1741675536960,260,GET Contact 10,200,OK,Stress Test 1-10,text,true,,1060,518,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff517,260,0,0
+1741675536960,260,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-10,,true,,1060,518,24,24,null,260,0,0
+1741675536984,259,PUT Contact 7,200,OK,Stress Test 1-7,text,true,,1069,940,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb910,259,0,0
+1741675537031,265,ADD Contact 13,201,Created,Stress Test 1-13,text,true,,1065,855,25,25,https://thinking-tester-contact-list.herokuapp.com/contacts,265,0,0
+1741675537031,265,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-13,,true,,1065,855,25,25,null,265,1,0
+1741675536256,1056,POST Login 16,200,OK,Stress Test 1-16,text,true,,1269,285,25,25,https://thinking-tester-contact-list.herokuapp.com/users/login,1056,0,761
+1741675537035,280,PUT Contact 8,200,OK,Stress Test 1-8,text,true,,1069,940,25,25,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb911,280,0,0
+1741675537052,271,PATCH Contact 5,200,OK,Stress Test 1-5,text,true,,1070,680,25,25,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb90c,271,0,0
+1741675537057,270,DELETE Contact 2,200,OK,Stress Test 1-2,text,true,,760,656,25,25,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb905,270,0,0
+1741675537085,262,ADD Contact 14,201,Created,Stress Test 1-14,text,true,,1065,855,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts,262,0,0
+1741675537085,262,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-14,,true,,1065,855,24,24,null,262,0,0
+1741675537091,264,PATCH Contact 6,200,OK,Stress Test 1-6,text,true,,1070,680,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb90d,264,0,0
+1741675537109,261,PUT Contact 9,200,OK,Stress Test 1-9,text,true,,1069,940,25,25,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff515,261,0,0
+1741675537098,289,GET Contact 11,200,OK,Stress Test 1-11,text,true,,1060,518,25,25,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff51b,289,0,0
+1741675537098,289,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-11,,true,,1060,518,25,25,null,289,0,0
+1741675536361,1028,POST Login 17,200,OK,Stress Test 1-17,text,true,,1269,285,25,25,https://thinking-tester-contact-list.herokuapp.com/users/login,1028,0,735
+1741675537132,262,DELETE Contact 4,200,OK,Stress Test 1-4,text,true,,760,656,25,25,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf6d0f9bb00135ff50d,262,0,0
+1741675537110,285,DELETE Contact 3,200,OK,Stress Test 1-3,text,true,,760,656,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb907,285,0,0
+1741675537212,260,GET Contact 12,200,OK,Stress Test 1-12,text,true,,1060,518,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff51c,260,0,0
+1741675537212,260,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-12,,true,,1060,518,24,24,null,260,0,0
+1741675537218,268,ADD Contact 15,201,Created,Stress Test 1-15,text,true,,1065,855,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts,268,0,0
+1741675537218,268,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-15,,true,,1065,855,24,24,null,268,0,0
+1741675537220,274,PUT Contact 10,200,OK,Stress Test 1-10,text,true,,1069,940,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff517,274,0,0
+1741675537243,286,PATCH Contact 7,200,OK,Stress Test 1-7,text,true,,1070,680,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb910,286,0,0
+1741675536461,1083,POST Login 18,200,OK,Stress Test 1-18,text,true,,1269,285,24,24,https://thinking-tester-contact-list.herokuapp.com/users/login,1083,0,757
+1741675537297,265,GET Contact 13,200,OK,Stress Test 1-13,text,true,,1060,518,25,25,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf749cdc400138cb914,265,0,0
+1741675537297,265,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-13,,true,,1060,518,25,25,null,265,0,0
+1741675537323,260,DELETE Contact 5,200,OK,Stress Test 1-5,text,true,,760,656,25,25,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb90c,260,0,0
+1741675537313,270,ADD Contact 16,201,Created,Stress Test 1-16,text,true,,1065,855,25,25,https://thinking-tester-contact-list.herokuapp.com/contacts,270,0,0
+1741675537313,270,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-16,,true,,1065,855,25,25,null,270,0,0
+1741675537315,273,PATCH Contact 8,200,OK,Stress Test 1-8,text,true,,1070,680,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb911,273,0,0
+1741675536560,1043,POST Login 19,200,OK,Stress Test 1-19,text,true,,1269,285,24,24,https://thinking-tester-contact-list.herokuapp.com/users/login,1043,0,750
+1741675537347,258,GET Contact 14,200,OK,Stress Test 1-14,text,true,,1060,518,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff51e,258,0,0
+1741675537347,258,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-14,,true,,1060,518,24,24,null,258,0,0
+1741675537584,438,GET Contact 16,200,OK,Stress Test 1-16,text,true,,1056,518,28,28,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff522,438,0,0
+1741675537583,438,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-16,,true,,1056,518,28,28,null,438,1,0
+1741675537355,677,DELETE Contact 6,200,OK,Stress Test 1-6,text,true,,760,656,28,28,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb90d,677,0,0
+1741675537588,447,DELETE Contact 8,200,OK,Stress Test 1-8,text,true,,756,656,27,27,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb911,447,0,0
+1741675537604,434,ADD Contact 19,201,Created,Stress Test 1-19,text,true,,1061,855,26,26,https://thinking-tester-contact-list.herokuapp.com/contacts,434,0,0
+1741675537604,434,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-19,,true,,1061,855,26,26,null,434,0,0
+1741675537562,488,PUT Contact 13,200,OK,Stress Test 1-13,text,true,,1069,940,26,26,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf749cdc400138cb914,488,0,0
+1741675537605,446,PUT Contact 14,200,OK,Stress Test 1-14,text,true,,1065,940,26,26,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff51e,446,0,0
+1741675537390,680,ADD Contact 17,201,Created,Stress Test 1-17,text,true,,1065,855,27,27,https://thinking-tester-contact-list.herokuapp.com/contacts,680,0,0
+1741675537390,680,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-17,,true,,1065,855,27,27,null,680,0,0
+1741675537530,572,DELETE Contact 7,200,OK,Stress Test 1-7,text,true,,760,656,27,27,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf649cdc400138cb910,572,0,0
+1741675537387,716,PUT Contact 11,200,OK,Stress Test 1-11,text,true,,1069,940,26,26,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff51b,716,0,0
+1741675537472,631,PUT Contact 12,200,OK,Stress Test 1-12,text,true,,1069,940,26,26,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff51c,631,0,0
+1741675537056,1068,POST Login 24,401,Unauthorized,Stress Test 1-24,,false,Response was null,669,285,26,26,https://thinking-tester-contact-list.herokuapp.com/users/login,1068,0,751
+1741675537486,679,GET Contact 15,200,OK,Stress Test 1-15,text,true,,1060,518,27,27,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff520,679,0,0
+1741675537486,679,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-15,,true,,1060,518,27,27,null,679,0,0
+1741675536955,1213,POST Login 23,401,Unauthorized,Stress Test 1-23,,false,Response was null,669,285,27,27,https://thinking-tester-contact-list.herokuapp.com/users/login,1213,0,763
+1741675536656,1515,POST Login 20,401,Unauthorized,Stress Test 1-20,,false,Response was null,673,285,27,27,https://thinking-tester-contact-list.herokuapp.com/users/login,1515,0,736
+1741675536757,1415,POST Login 21,401,Unauthorized,Stress Test 1-21,,false,Response was null,673,285,27,27,https://thinking-tester-contact-list.herokuapp.com/users/login,1415,0,742
+1741675536856,1322,POST Login 22,200,OK,Stress Test 1-22,text,true,,1265,285,27,27,https://thinking-tester-contact-list.herokuapp.com/users/login,1322,0,765
+1741675537544,643,ADD Contact 18,201,Created,Stress Test 1-18,text,true,,1065,855,27,27,https://thinking-tester-contact-list.herokuapp.com/contacts,643,0,0
+1741675537544,643,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-18,,true,,1065,855,27,27,null,643,0,0
+1741675537370,822,PATCH Contact 9,200,OK,Stress Test 1-9,text,true,,1070,680,27,27,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff515,822,0,0
+1741675537494,717,PATCH Contact 10,200,OK,Stress Test 1-10,text,true,,1070,680,27,27,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff517,717,0,0
+1741675537156,1074,POST Login 25,200,OK,Stress Test 1-25,text,true,,1265,285,27,27,https://thinking-tester-contact-list.herokuapp.com/users/login,1074,0,753
+1741675538022,270,PUT Contact 16,200,OK,Stress Test 1-16,text,true,,1065,940,28,28,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff522,270,0,0
+1741675537255,1056,POST Login 26,200,OK,Stress Test 1-26,text,true,,1265,285,28,28,https://thinking-tester-contact-list.herokuapp.com/users/login,1056,0,757
+1741675538038,274,GET Contact 19,200,OK,Stress Test 1-19,text,true,,1056,518,28,28,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf849cdc400138cb91d,274,0,0
+1741675538038,274,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-19,,true,,1056,518,28,28,null,274,0,0
+1741675538051,269,PATCH Contact 14,200,OK,Stress Test 1-14,text,true,,1066,680,28,28,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff51e,269,0,0
+1741675538051,272,PATCH Contact 13,200,OK,Stress Test 1-13,text,true,,1066,680,28,28,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf749cdc400138cb914,272,0,0
+1741675538070,254,GET Contact 17,200,OK,Stress Test 1-17,text,true,,1056,518,28,28,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf849cdc400138cb91e,254,0,0
+1741675538070,254,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-17,,true,,1056,518,28,28,null,254,1,0
+1741675538124,252,ADD Contact 24,401,Unauthorized,Stress Test 1-24,text,false,,791,541,29,29,https://thinking-tester-contact-list.herokuapp.com/contacts,252,0,0
+1741675538124,252,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-24,,false,,791,541,29,29,null,252,1,0
+1741675538103,281,PATCH Contact 11,200,OK,Stress Test 1-11,text,true,,1066,680,29,29,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff51b,281,0,0
+1741675537355,1046,POST Login 27,200,OK,Stress Test 1-27,text,true,,1265,285,29,29,https://thinking-tester-contact-list.herokuapp.com/users/login,1046,0,752
+1741675538103,299,PATCH Contact 12,200,OK,Stress Test 1-12,text,true,,1066,680,29,29,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff51c,299,0,0
+1741675538171,246,ADD Contact 20,401,Unauthorized,Stress Test 1-20,text,false,,791,541,29,29,https://thinking-tester-contact-list.herokuapp.com/contacts,246,0,0
+1741675538171,246,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-20,,false,,791,541,29,29,null,246,0,0
+1741675538172,248,ADD Contact 21,401,Unauthorized,Stress Test 1-21,text,false,,791,541,29,29,https://thinking-tester-contact-list.herokuapp.com/contacts,247,0,0
+1741675538172,248,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-21,,false,,791,541,29,29,null,247,0,0
+1741675538168,258,ADD Contact 23,401,Unauthorized,Stress Test 1-23,text,false,,791,541,29,29,https://thinking-tester-contact-list.herokuapp.com/contacts,258,0,0
+1741675538168,258,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-23,,false,,791,541,29,29,null,258,0,0
+1741675538166,267,PUT Contact 15,200,OK,Stress Test 1-15,text,true,,1065,940,29,29,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff520,267,0,0
+1741675538178,268,ADD Contact 22,201,Created,Stress Test 1-22,text,true,,1061,855,29,29,https://thinking-tester-contact-list.herokuapp.com/contacts,268,0,0
+1741675538178,268,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-22,,true,,1061,855,29,29,null,268,0,0
+1741675538192,259,DELETE Contact 9,200,OK,Stress Test 1-9,text,true,,756,656,29,29,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff515,259,0,0
+1741675538187,264,GET Contact 18,200,OK,Stress Test 1-18,text,true,,1056,518,29,29,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf8d0f9bb00135ff52a,264,0,0
+1741675538187,264,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-18,,true,,1056,518,29,29,null,264,0,0
+1741675538212,279,DELETE Contact 10,200,OK,Stress Test 1-10,text,true,,756,656,29,29,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff517,279,0,0
+1741675538231,263,ADD Contact 25,201,Created,Stress Test 1-25,text,true,,1061,855,28,28,https://thinking-tester-contact-list.herokuapp.com/contacts,263,0,0
+1741675538230,263,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-25,,true,,1061,855,28,28,null,263,1,0
+1741675537456,1062,POST Login 28,200,OK,Stress Test 1-28,text,true,,1265,285,28,28,https://thinking-tester-contact-list.herokuapp.com/users/login,1062,0,756
+1741675538377,252,GET Contact 24,401,Unauthorized,Stress Test 1-24,text,false,,791,180,29,29,https://thinking-tester-contact-list.herokuapp.com/contacts/,252,0,0
+1741675538377,252,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-24,,false,,791,180,29,29,null,252,0,0
+1741675538417,246,GET Contact 20,401,Unauthorized,Stress Test 1-20,text,false,,791,180,30,30,https://thinking-tester-contact-list.herokuapp.com/contacts/,246,0,0
+1741675538417,246,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-20,,false,,791,180,30,30,null,246,0,0
+1741675538420,249,GET Contact 21,401,Unauthorized,Stress Test 1-21,text,false,,791,180,30,30,https://thinking-tester-contact-list.herokuapp.com/contacts/,249,0,0
+1741675538420,249,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-21,,false,,791,180,30,30,null,249,0,0
+1741675538426,256,GET Contact 23,401,Unauthorized,Stress Test 1-23,text,false,,791,180,30,30,https://thinking-tester-contact-list.herokuapp.com/contacts/,256,0,0
+1741675538426,256,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-23,,false,,791,180,30,30,null,256,0,0
+1741675538298,721,PATCH Contact 16,200,OK,Stress Test 1-16,text,true,,1066,680,33,33,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff522,721,0,0
+1741675538451,634,PUT Contact 18,200,OK,Stress Test 1-18,text,true,,1065,940,34,34,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf8d0f9bb00135ff52a,634,0,0
+1741675538325,761,PUT Contact 17,200,OK,Stress Test 1-17,text,true,,1065,940,34,34,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf849cdc400138cb91e,761,0,0
+1741675538312,776,ADD Contact 26,201,Created,Stress Test 1-26,text,true,,1061,855,34,34,https://thinking-tester-contact-list.herokuapp.com/contacts,776,0,0
+1741675538311,776,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-26,,true,,1061,855,34,34,null,776,2,0
+1741675537656,1436,POST Login 30,200,OK,Stress Test 1-30,text,true,,1265,285,34,34,https://thinking-tester-contact-list.herokuapp.com/users/login,1436,0,746
+1741675538323,770,DELETE Contact 13,200,OK,Stress Test 1-13,text,true,,756,656,34,34,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf749cdc400138cb914,770,0,0
+1741675538320,773,DELETE Contact 14,200,OK,Stress Test 1-14,text,true,,756,656,33,33,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff51e,773,0,0
+1741675538494,641,GET Contact 25,200,OK,Stress Test 1-25,text,true,,1056,518,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf8d0f9bb00135ff532,641,0,0
+1741675538494,641,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-25,,true,,1056,518,32,32,null,641,1,0
+1741675538446,691,GET Contact 22,200,OK,Stress Test 1-22,text,true,,1056,518,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf8d0f9bb00135ff52e,691,0,0
+1741675538446,691,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-22,,true,,1056,518,32,32,null,691,0,0
+1741675537857,1281,POST Login 32,401,Unauthorized,Stress Test 1-32,,false,Response was null,669,285,32,32,https://thinking-tester-contact-list.herokuapp.com/users/login,1281,0,731
+1741675537956,1186,POST Login 33,401,Unauthorized,Stress Test 1-33,,false,Response was null,669,285,32,32,https://thinking-tester-contact-list.herokuapp.com/users/login,1186,0,765
+1741675538433,712,PATCH Contact 15,200,OK,Stress Test 1-15,text,true,,1066,680,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff520,712,0,0
+1741675537755,1394,POST Login 31,401,Unauthorized,Stress Test 1-31,,false,Response was null,669,285,32,32,https://thinking-tester-contact-list.herokuapp.com/users/login,1394,0,748
+1741675537556,1594,POST Login 29,401,Unauthorized,Stress Test 1-29,,false,Response was null,669,285,32,32,https://thinking-tester-contact-list.herokuapp.com/users/login,1594,0,758
+1741675538402,749,DELETE Contact 12,200,OK,Stress Test 1-12,text,true,,756,656,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff51c,749,0,0
+1741675538384,767,DELETE Contact 11,200,OK,Stress Test 1-11,text,true,,756,656,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff51b,767,0,0
+1741675538402,749,ADD Contact 27,201,Created,Stress Test 1-27,text,true,,1061,855,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts,749,0,0
+1741675538312,840,PUT Contact 19,200,OK,Stress Test 1-19,text,true,,1065,940,30,30,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf849cdc400138cb91d,840,0,0
+1741675538401,749,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-27,,true,,1061,855,32,32,null,749,3,0
+1741675538518,660,ADD Contact 28,201,Created,Stress Test 1-28,text,true,,1061,855,31,31,https://thinking-tester-contact-list.herokuapp.com/contacts,660,0,0
+1741675538518,660,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-28,,true,,1061,855,31,31,null,660,0,0
+1741675538056,1156,POST Login 34,200,OK,Stress Test 1-34,text,true,,1265,285,31,31,https://thinking-tester-contact-list.herokuapp.com/users/login,1156,0,738
+1741675538156,1080,POST Login 35,401,Unauthorized,Stress Test 1-35,,false,Response was null,669,285,31,31,https://thinking-tester-contact-list.herokuapp.com/users/login,1080,0,740
+1741675538256,1064,POST Login 36,200,OK,Stress Test 1-36,text,true,,1265,285,32,32,https://thinking-tester-contact-list.herokuapp.com/users/login,1064,0,765
+1741675539019,283,DELETE Contact 16,200,OK,Stress Test 1-16,text,true,,756,656,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff522,283,0,0
+1741675539086,262,PATCH Contact 17,200,OK,Stress Test 1-17,text,true,,1066,680,31,31,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf849cdc400138cb91e,262,0,0
+1741675539089,259,GET Contact 26,200,OK,Stress Test 1-26,text,true,,1056,518,31,31,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf949cdc400138cb926,259,0,0
+1741675539089,259,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-26,,true,,1056,518,31,31,null,259,1,0
+1741675538356,1024,POST Login 37,200,OK,Stress Test 1-37,text,true,,1265,285,32,32,https://thinking-tester-contact-list.herokuapp.com/users/login,1024,0,732
+1741675539138,245,ADD Contact 32,401,Unauthorized,Stress Test 1-32,text,false,,791,541,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts,245,0,0
+1741675539138,245,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-32,,false,,791,541,32,32,null,245,0,0
+1741675539092,292,ADD Contact 30,201,Created,Stress Test 1-30,text,true,,1061,855,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts,292,0,0
+1741675539092,292,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-30,,true,,1061,855,32,32,null,292,1,0
+1741675539085,300,PATCH Contact 18,200,OK,Stress Test 1-18,text,true,,1066,680,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf8d0f9bb00135ff52a,300,0,0
+1741675539149,250,ADD Contact 31,401,Unauthorized,Stress Test 1-31,text,false,,791,541,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts,250,0,0
+1741675539149,250,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-31,,false,,791,541,32,32,null,250,0,0
+1741675539136,263,PUT Contact 25,200,OK,Stress Test 1-25,text,true,,1065,940,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf8d0f9bb00135ff532,263,0,0
+1741675539142,258,ADD Contact 33,401,Unauthorized,Stress Test 1-33,text,false,,791,541,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts,258,0,0
+1741675539142,258,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-33,,false,,791,541,32,32,null,258,0,0
+1741675539150,255,ADD Contact 29,401,Unauthorized,Stress Test 1-29,text,false,,791,541,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts,255,0,0
+1741675539150,255,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-29,,false,,791,541,32,32,null,255,0,0
+1741675539137,271,PUT Contact 22,200,OK,Stress Test 1-22,text,true,,1065,940,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf8d0f9bb00135ff52e,271,0,0
+1741675539145,269,DELETE Contact 15,200,OK,Stress Test 1-15,text,true,,756,656,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf7d0f9bb00135ff520,269,0,0
+1741675539153,263,GET Contact 27,200,OK,Stress Test 1-27,text,true,,1056,518,31,31,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf949cdc400138cb928,263,0,0
+1741675539153,263,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-27,,true,,1056,518,31,31,null,263,0,0
+1741675539153,288,PATCH Contact 19,200,OK,Stress Test 1-19,text,true,,1066,680,31,31,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf849cdc400138cb91d,288,0,0
+1741675539178,271,GET Contact 28,200,OK,Stress Test 1-28,text,true,,1056,518,31,31,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf949cdc400138cb92b,271,0,0
+1741675539178,271,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-28,,true,,1056,518,31,31,null,271,0,0
+1741675539212,259,ADD Contact 34,201,Created,Stress Test 1-34,text,true,,1061,855,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts,259,0,0
+1741675539212,259,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-34,,true,,1061,855,32,32,null,259,1,0
+1741675539236,247,ADD Contact 35,401,Unauthorized,Stress Test 1-35,text,false,,791,541,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts,247,0,0
+1741675539236,247,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-35,,false,,791,541,32,32,null,247,0,0
+1741675538456,1054,POST Login 38,200,OK,Stress Test 1-38,text,true,,1265,285,32,32,https://thinking-tester-contact-list.herokuapp.com/users/login,1054,0,760
+1741675538557,1029,POST Login 39,200,OK,Stress Test 1-39,text,true,,1265,285,33,33,https://thinking-tester-contact-list.herokuapp.com/users/login,1029,0,739
+1741675539330,269,ADD Contact 36,201,Created,Stress Test 1-36,text,true,,1061,855,33,33,https://thinking-tester-contact-list.herokuapp.com/contacts,269,0,0
+1741675539330,269,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-36,,true,,1061,855,33,33,null,269,0,0
+1741675539348,263,DELETE Contact 17,200,OK,Stress Test 1-17,text,true,,756,656,33,33,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf849cdc400138cb91e,263,0,0
+1741675539383,244,GET Contact 32,401,Unauthorized,Stress Test 1-32,text,false,,791,180,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts/,244,0,0
+1741675539383,244,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-32,,false,,791,180,32,32,null,244,1,0
+1741675539399,252,GET Contact 31,401,Unauthorized,Stress Test 1-31,text,false,,791,180,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts/,252,0,0
+1741675539399,252,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-31,,false,,791,180,32,32,null,252,0,0
+1741675539400,255,GET Contact 33,401,Unauthorized,Stress Test 1-33,text,false,,791,180,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts/,255,0,0
+1741675539400,255,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-33,,false,,791,180,32,32,null,255,0,0
+1741675539405,255,GET Contact 29,401,Unauthorized,Stress Test 1-29,text,false,,791,180,33,33,https://thinking-tester-contact-list.herokuapp.com/contacts/,254,0,0
+1741675539405,255,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-29,,false,,791,180,33,33,null,254,0,0
+1741675539483,248,GET Contact 35,401,Unauthorized,Stress Test 1-35,text,false,,791,180,33,33,https://thinking-tester-contact-list.herokuapp.com/contacts/,248,0,0
+1741675539483,248,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-35,,false,,791,180,33,33,null,248,0,0
+1741675539349,653,PUT Contact 26,200,OK,Stress Test 1-26,text,true,,1065,940,36,36,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf949cdc400138cb926,653,0,0
+1741675539450,584,PUT Contact 28,200,OK,Stress Test 1-28,text,true,,1065,940,36,36,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf949cdc400138cb92b,584,0,0
+1741675539441,595,DELETE Contact 19,200,OK,Stress Test 1-19,text,true,,756,656,36,36,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf849cdc400138cb91d,595,0,0
+1741675539400,670,PATCH Contact 25,200,OK,Stress Test 1-25,text,true,,1066,680,36,36,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf8d0f9bb00135ff532,670,0,0
+1741675539416,654,PUT Contact 27,200,OK,Stress Test 1-27,text,true,,1065,940,36,36,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf949cdc400138cb928,654,0,0
+1741675539510,562,ADD Contact 38,201,Created,Stress Test 1-38,text,true,,1061,855,36,36,https://thinking-tester-contact-list.herokuapp.com/contacts,562,0,0
+1741675539510,562,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-38,,true,,1061,855,36,36,null,562,0,0
+1741675538656,1418,POST Login 40,200,OK,Stress Test 1-40,text,true,,1265,285,36,36,https://thinking-tester-contact-list.herokuapp.com/users/login,1418,0,735
+1741675539385,694,GET Contact 30,200,OK,Stress Test 1-30,text,true,,1056,518,36,36,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf949cdc400138cb930,694,0,0
+1741675539385,694,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-30,,true,,1056,518,36,36,null,694,0,0
+1741675539472,610,GET Contact 34,200,OK,Stress Test 1-34,text,true,,1056,518,36,36,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf9d0f9bb00135ff539,610,0,0
+1741675539472,610,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-34,,true,,1056,518,36,36,null,610,0,0
+1741675538970,1114,POST Login 43,401,Unauthorized,Stress Test 1-43,,false,Response was null,673,285,36,36,https://thinking-tester-contact-list.herokuapp.com/users/login,1114,0,746
+1741675539385,700,DELETE Contact 18,200,OK,Stress Test 1-18,text,true,,756,656,36,36,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf8d0f9bb00135ff52a,700,0,0
+1741675538862,1223,POST Login 42,401,Unauthorized,Stress Test 1-42,,false,Response was null,673,285,35,35,https://thinking-tester-contact-list.herokuapp.com/users/login,1223,0,754
+1741675539599,502,GET Contact 36,200,OK,Stress Test 1-36,text,true,,1060,518,35,35,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf9d0f9bb00135ff53c,502,0,0
+1741675539599,502,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-36,,true,,1060,518,35,35,null,502,0,0
+1741675538756,1345,POST Login 41,401,Unauthorized,Stress Test 1-41,,false,Response was null,669,285,35,35,https://thinking-tester-contact-list.herokuapp.com/users/login,1345,0,767
+1741675539381,725,ADD Contact 37,201,Created,Stress Test 1-37,text,true,,1061,855,35,35,https://thinking-tester-contact-list.herokuapp.com/contacts,725,0,0
+1741675539381,725,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-37,,true,,1061,855,35,35,null,725,1,0
+1741675539586,521,ADD Contact 39,201,Created,Stress Test 1-39,text,true,,1061,855,35,35,https://thinking-tester-contact-list.herokuapp.com/contacts,521,0,0
+1741675539586,521,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-39,,true,,1061,855,35,35,null,521,0,0
+1741675539408,712,PATCH Contact 22,200,OK,Stress Test 1-22,text,true,,1066,680,35,35,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf8d0f9bb00135ff52e,712,0,0
+1741675539064,1081,POST Login 44,200,OK,Stress Test 1-44,text,true,,1269,285,35,35,https://thinking-tester-contact-list.herokuapp.com/users/login,1081,0,735
+1741675539161,1029,POST Login 45,200,OK,Stress Test 1-45,text,true,,1269,285,36,36,https://thinking-tester-contact-list.herokuapp.com/users/login,1029,0,736
+1741675540002,269,PATCH Contact 26,200,OK,Stress Test 1-26,text,true,,1070,680,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf949cdc400138cb926,269,0,0
+1741675540085,260,ADD Contact 42,401,Unauthorized,Stress Test 1-42,text,false,,795,541,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts,260,0,0
+1741675540075,265,ADD Contact 40,201,Created,Stress Test 1-40,text,true,,1065,855,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts,265,0,0
+1741675540085,249,ADD Contact 43,401,Unauthorized,Stress Test 1-43,text,false,,795,541,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts,249,0,0
+1741675540075,265,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-40,,true,,1065,855,37,37,null,265,8,0
+1741675540034,295,PATCH Contact 28,200,OK,Stress Test 1-28,text,true,,1070,680,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf949cdc400138cb92b,295,0,0
+1741675540085,260,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-42,,false,,795,541,37,37,null,260,3,0
+1741675539262,1062,POST Login 46,200,OK,Stress Test 1-46,text,true,,1269,285,37,37,https://thinking-tester-contact-list.herokuapp.com/users/login,1062,0,762
+1741675540085,249,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-43,,false,,795,541,37,37,null,249,14,0
+1741675540070,279,DELETE Contact 25,200,OK,Stress Test 1-25,text,true,,760,656,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf8d0f9bb00135ff532,279,0,0
+1741675540080,269,PUT Contact 30,200,OK,Stress Test 1-30,text,true,,1069,940,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf949cdc400138cb930,269,0,0
+1741675540082,271,PUT Contact 34,200,OK,Stress Test 1-34,text,true,,1069,940,36,36,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf9d0f9bb00135ff539,271,0,0
+1741675540072,283,GET Contact 38,200,OK,Stress Test 1-38,text,true,,1060,518,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfad0f9bb00135ff53d,283,0,0
+1741675540072,283,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-38,,true,,1060,518,37,37,null,283,1,0
+1741675540101,256,ADD Contact 41,401,Unauthorized,Stress Test 1-41,text,false,,795,541,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts,256,0,0
+1741675540101,256,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-41,,false,,795,541,37,37,null,256,0,0
+1741675540071,288,PATCH Contact 27,200,OK,Stress Test 1-27,text,true,,1070,680,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf949cdc400138cb928,288,0,0
+1741675540107,260,GET Contact 39,200,OK,Stress Test 1-39,text,true,,1060,518,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfa49cdc400138cb935,260,0,0
+1741675540107,260,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-39,,true,,1060,518,37,37,null,260,1,0
+1741675540120,266,DELETE Contact 22,200,OK,Stress Test 1-22,text,true,,760,656,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf8d0f9bb00135ff52e,266,0,0
+1741675540101,292,PUT Contact 36,200,OK,Stress Test 1-36,text,true,,1069,940,36,36,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf9d0f9bb00135ff53c,292,0,0
+1741675540107,317,GET Contact 37,200,OK,Stress Test 1-37,text,true,,1060,518,36,36,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfa49cdc400138cb936,317,0,0
+1741675540107,317,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-37,,true,,1060,518,36,36,null,317,0,0
+1741675539356,1080,POST Login 47,200,OK,Stress Test 1-47,text,true,,1269,285,36,36,https://thinking-tester-contact-list.herokuapp.com/users/login,1080,0,754
+1741675540145,299,ADD Contact 44,201,Created,Stress Test 1-44,text,true,,1065,855,36,36,https://thinking-tester-contact-list.herokuapp.com/contacts,299,0,0
+1741675540145,299,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-44,,true,,1065,855,36,36,null,299,0,0
+1741675540191,259,ADD Contact 45,201,Created,Stress Test 1-45,text,true,,1065,855,36,36,https://thinking-tester-contact-list.herokuapp.com/contacts,259,0,0
+1741675540191,259,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-45,,true,,1065,855,36,36,null,259,0,0
+1741675539456,1058,POST Login 48,200,OK,Stress Test 1-48,text,true,,1269,285,37,37,https://thinking-tester-contact-list.herokuapp.com/users/login,1058,0,760
+1741675540271,266,DELETE Contact 26,200,OK,Stress Test 1-26,text,true,,760,656,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf949cdc400138cb926,266,0,0
+1741675540349,254,GET Contact 43,401,Unauthorized,Stress Test 1-43,text,false,,795,180,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts/,254,0,0
+1741675540348,254,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-43,,false,,795,180,37,37,null,254,1,0
+1741675539556,1047,POST Login 49,200,OK,Stress Test 1-49,text,true,,1269,285,37,37,https://thinking-tester-contact-list.herokuapp.com/users/login,1047,0,748
+1741675540349,264,GET Contact 42,401,Unauthorized,Stress Test 1-42,text,false,,795,180,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts/,264,0,0
+1741675540348,264,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-42,,false,,795,180,37,37,null,264,1,0
+1741675540357,260,GET Contact 41,401,Unauthorized,Stress Test 1-41,text,false,,795,180,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts/,260,0,0
+1741675540357,260,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-41,,false,,795,180,37,37,null,260,0,0
+1741675540349,670,DELETE Contact 28,200,OK,Stress Test 1-28,text,true,,760,656,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf949cdc400138cb92b,670,0,0
+1741675540349,685,GET Contact 40,200,OK,Stress Test 1-40,text,true,,1060,518,40,40,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfa49cdc400138cb93b,685,0,0
+1741675540348,685,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-40,,true,,1060,518,40,40,null,685,1,0
+1741675539955,1092,POST Login 53,200,OK,Stress Test 1-53,text,true,,1261,285,40,40,https://thinking-tester-contact-list.herokuapp.com/users/login,1092,0,744
+1741675540353,718,PATCH Contact 34,200,OK,Stress Test 1-34,text,true,,1070,680,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf9d0f9bb00135ff539,718,0,0
+1741675540349,722,ADD Contact 46,201,Created,Stress Test 1-46,text,true,,1065,855,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts,722,0,0
+1741675540424,647,PUT Contact 37,200,OK,Stress Test 1-37,text,true,,1069,940,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfa49cdc400138cb936,647,0,0
+1741675540349,722,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-46,,true,,1065,855,41,41,null,722,0,0
+1741675540356,716,PUT Contact 38,200,OK,Stress Test 1-38,text,true,,1069,940,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfad0f9bb00135ff53d,716,0,0
+1741675540450,623,GET Contact 45,200,OK,Stress Test 1-45,text,true,,1060,518,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfa49cdc400138cb93d,623,0,0
+1741675540450,623,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-45,,true,,1060,518,41,41,null,623,0,0
+1741675540350,727,PATCH Contact 30,200,OK,Stress Test 1-30,text,true,,1070,680,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf949cdc400138cb930,727,0,0
+1741675540444,655,GET Contact 44,200,OK,Stress Test 1-44,text,true,,1060,518,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfad0f9bb00135ff546,655,0,0
+1741675540444,655,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-44,,true,,1060,518,41,41,null,655,0,0
+1741675540368,778,PUT Contact 39,200,OK,Stress Test 1-39,text,true,,1069,940,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfa49cdc400138cb935,778,0,0
+1741675540603,543,ADD Contact 49,201,Created,Stress Test 1-49,text,true,,1057,855,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts,543,0,0
+1741675540603,543,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-49,,true,,1057,855,41,41,null,543,1,0
+1741675540393,755,PATCH Contact 36,200,OK,Stress Test 1-36,text,true,,1070,680,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf9d0f9bb00135ff53c,755,0,0
+1741675540514,678,ADD Contact 48,201,Created,Stress Test 1-48,text,true,,1065,855,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts,678,0,0
+1741675540514,678,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-48,,true,,1065,855,42,42,null,678,0,0
+1741675539755,1437,POST Login 51,401,Unauthorized,Stress Test 1-51,,false,Response was null,673,285,42,42,https://thinking-tester-contact-list.herokuapp.com/users/login,1437,0,740
+1741675540436,756,ADD Contact 47,201,Created,Stress Test 1-47,text,true,,1065,855,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts,756,0,0
+1741675540436,756,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-47,,true,,1065,855,42,42,null,756,0,0
+1741675539856,1343,POST Login 52,401,Unauthorized,Stress Test 1-52,,false,Response was null,665,285,42,42,https://thinking-tester-contact-list.herokuapp.com/users/login,1343,0,760
+1741675539656,1545,POST Login 50,401,Unauthorized,Stress Test 1-50,,false,Response was null,673,285,42,42,https://thinking-tester-contact-list.herokuapp.com/users/login,1545,0,757
+1741675540360,843,DELETE Contact 27,200,OK,Stress Test 1-27,text,true,,760,656,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf949cdc400138cb928,843,0,0
+1741675540056,1207,POST Login 54,200,OK,Stress Test 1-54,text,true,,1261,285,42,42,https://thinking-tester-contact-list.herokuapp.com/users/login,1207,0,754
+1741675540156,1116,POST Login 55,401,Unauthorized,Stress Test 1-55,,false,Response was null,665,285,42,42,https://thinking-tester-contact-list.herokuapp.com/users/login,1116,0,750
+1741675541035,261,PUT Contact 40,200,OK,Stress Test 1-40,text,true,,1061,940,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfa49cdc400138cb93b,261,0,0
+1741675541099,261,PUT Contact 44,200,OK,Stress Test 1-44,text,true,,1061,940,43,43,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfad0f9bb00135ff546,261,0,0
+1741675541073,277,PATCH Contact 38,200,OK,Stress Test 1-38,text,true,,1062,680,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfad0f9bb00135ff53d,277,0,0
+1741675541077,271,DELETE Contact 30,200,OK,Stress Test 1-30,text,true,,752,656,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf949cdc400138cb930,271,0,0
+1741675541071,270,GET Contact 46,200,OK,Stress Test 1-46,text,true,,1052,518,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfb49cdc400138cb940,270,0,0
+1741675541071,266,DELETE Contact 34,200,OK,Stress Test 1-34,text,true,,752,656,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf9d0f9bb00135ff539,266,0,0
+1741675541073,261,PUT Contact 45,200,OK,Stress Test 1-45,text,true,,1061,940,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfa49cdc400138cb93d,261,0,0
+1741675540255,1068,POST Login 56,200,OK,Stress Test 1-56,text,true,,1261,285,42,42,https://thinking-tester-contact-list.herokuapp.com/users/login,1068,0,761
+1741675541048,267,ADD Contact 53,201,Created,Stress Test 1-53,text,true,,1057,855,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts,267,0,0
+1741675541071,266,PATCH Contact 37,200,OK,Stress Test 1-37,text,true,,1062,680,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfa49cdc400138cb936,266,0,0
+1741675541048,267,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-53,,true,,1057,855,42,42,null,267,45,0
+1741675541071,270,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-46,,true,,1052,518,42,42,null,270,19,0
+1741675540356,1032,POST Login 57,200,OK,Stress Test 1-57,text,true,,1261,285,41,41,https://thinking-tester-contact-list.herokuapp.com/users/login,1032,0,736
+1741675541146,262,PATCH Contact 39,200,OK,Stress Test 1-39,text,true,,1062,680,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfa49cdc400138cb935,262,0,0
+1741675541147,262,GET Contact 49,200,OK,Stress Test 1-49,text,true,,1052,518,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff54c,262,0,0
+1741675541147,262,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-49,,true,,1052,518,41,41,null,262,0,0
+1741675541148,273,DELETE Contact 36,200,OK,Stress Test 1-36,text,true,,752,656,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddf9d0f9bb00135ff53c,273,0,0
+1741675541192,248,ADD Contact 51,401,Unauthorized,Stress Test 1-51,text,false,,787,541,40,40,https://thinking-tester-contact-list.herokuapp.com/contacts,248,0,0
+1741675541192,248,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-51,,false,,787,541,40,40,null,248,1,0
+1741675541193,258,GET Contact 47,200,OK,Stress Test 1-47,text,true,,1052,518,40,40,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff54e,258,0,0
+1741675541192,258,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-47,,true,,1052,518,40,40,null,258,1,0
+1741675541192,261,GET Contact 48,200,OK,Stress Test 1-48,text,true,,1052,518,40,40,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff54d,261,0,0
+1741675541192,261,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-48,,true,,1052,518,40,40,null,261,0,0
+1741675541200,253,ADD Contact 52,401,Unauthorized,Stress Test 1-52,text,false,,787,541,40,40,https://thinking-tester-contact-list.herokuapp.com/contacts,253,0,0
+1741675541200,253,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-52,,false,,787,541,40,40,null,253,1,0
+1741675541202,252,ADD Contact 50,401,Unauthorized,Stress Test 1-50,text,false,,787,541,40,40,https://thinking-tester-contact-list.herokuapp.com/contacts,252,0,0
+1741675541201,252,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-50,,false,,787,541,40,40,null,252,1,0
+1741675540456,1049,POST Login 58,200,OK,Stress Test 1-58,text,true,,1261,285,41,41,https://thinking-tester-contact-list.herokuapp.com/users/login,1049,0,753
+1741675541272,253,ADD Contact 55,401,Unauthorized,Stress Test 1-55,text,false,,787,541,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts,253,0,0
+1741675541272,253,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-55,,false,,787,541,41,41,null,253,0,0
+1741675541263,269,ADD Contact 54,201,Created,Stress Test 1-54,text,true,,1057,855,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts,269,0,0
+1741675541263,269,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-54,,true,,1057,855,41,41,null,269,0,0
+1741675541297,262,PATCH Contact 40,200,OK,Stress Test 1-40,text,true,,1062,680,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfa49cdc400138cb93b,262,0,0
+1741675541360,257,DELETE Contact 37,200,OK,Stress Test 1-37,text,true,,752,656,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfa49cdc400138cb936,257,0,0
+1741675540556,1064,POST Login 59,200,OK,Stress Test 1-59,text,true,,1261,285,41,41,https://thinking-tester-contact-list.herokuapp.com/users/login,1064,0,763
+1741675541360,264,GET Contact 53,200,OK,Stress Test 1-53,text,true,,1052,518,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff554,264,0,0
+1741675541360,264,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-53,,true,,1052,518,41,41,null,264,0,0
+1741675541360,265,PATCH Contact 45,200,OK,Stress Test 1-45,text,true,,1062,680,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfa49cdc400138cb93d,265,0,0
+1741675541441,247,GET Contact 51,401,Unauthorized,Stress Test 1-51,text,false,,787,180,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts/,247,0,0
+1741675541441,247,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-51,,false,,787,180,42,42,null,247,0,0
+1741675541454,252,GET Contact 52,401,Unauthorized,Stress Test 1-52,text,false,,787,180,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts/,252,0,0
+1741675541454,252,GET Contact 50,401,Unauthorized,Stress Test 1-50,text,false,,787,180,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts/,252,0,0
+1741675541454,252,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-52,,false,,787,180,42,42,null,252,1,0
+1741675541454,252,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-50,,false,,787,180,42,42,null,252,1,0
+1741675541525,252,GET Contact 55,401,Unauthorized,Stress Test 1-55,text,false,,787,180,43,43,https://thinking-tester-contact-list.herokuapp.com/contacts/,252,0,0
+1741675541525,252,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-55,,false,,787,180,43,43,null,252,0,0
+1741675541360,661,ADD Contact 56,201,Created,Stress Test 1-56,text,true,,1057,855,45,45,https://thinking-tester-contact-list.herokuapp.com/contacts,661,0,0
+1741675541360,661,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-56,,true,,1057,855,45,45,null,661,0,0
+1741675541360,662,PUT Contact 46,200,OK,Stress Test 1-46,text,true,,1061,940,45,45,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfb49cdc400138cb940,662,0,0
+1741675541625,441,DELETE Contact 45,200,OK,Stress Test 1-45,text,true,,764,656,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfa49cdc400138cb93d,441,0,0
+1741675540655,1410,POST Login 60,200,OK,Stress Test 1-60,text,true,,1261,285,46,46,https://thinking-tester-contact-list.herokuapp.com/users/login,1410,0,735
+1741675541360,714,DELETE Contact 38,200,OK,Stress Test 1-38,text,true,,752,656,45,45,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfad0f9bb00135ff53d,714,0,0
+1741675541453,621,PUT Contact 48,200,OK,Stress Test 1-48,text,true,,1061,940,45,45,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff54d,621,0,0
+1741675541532,542,GET Contact 54,200,OK,Stress Test 1-54,text,true,,1052,518,45,45,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff557,542,0,0
+1741675541409,665,PUT Contact 49,200,OK,Stress Test 1-49,text,true,,1061,940,45,45,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff54c,665,0,0
+1741675541532,542,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-54,,true,,1052,518,45,45,null,542,0,0
+1741675541620,455,ADD Contact 59,201,Created,Stress Test 1-59,text,true,,1069,855,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts,455,0,0
+1741675541505,570,ADD Contact 58,201,Created,Stress Test 1-58,text,true,,1057,855,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts,570,0,0
+1741675541620,455,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-59,,true,,1069,855,44,44,null,455,0,0
+1741675541505,570,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-58,,true,,1057,855,44,44,null,570,0,0
+1741675541388,687,ADD Contact 57,201,Created,Stress Test 1-57,text,true,,1057,855,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts,687,0,0
+1741675541559,516,DELETE Contact 40,200,OK,Stress Test 1-40,text,true,,752,656,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfa49cdc400138cb93b,516,0,0
+1741675541451,624,PUT Contact 47,200,OK,Stress Test 1-47,text,true,,1061,940,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff54e,624,0,0
+1741675541388,687,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-57,,true,,1057,855,44,44,null,687,0,0
+1741675541408,670,DELETE Contact 39,200,OK,Stress Test 1-39,text,true,,752,656,43,43,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfa49cdc400138cb935,670,0,0
+1741675540856,1228,POST Login 62,401,Unauthorized,Stress Test 1-62,,false,Response was null,677,285,42,42,https://thinking-tester-contact-list.herokuapp.com/users/login,1228,0,735
+1741675541624,470,PUT Contact 53,200,OK,Stress Test 1-53,text,true,,1073,940,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff554,470,0,0
+1741675541360,735,PATCH Contact 44,200,OK,Stress Test 1-44,text,true,,1062,680,42,42,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfad0f9bb00135ff546,735,0,0
+1741675540955,1141,POST Login 63,401,Unauthorized,Stress Test 1-63,,false,Response was null,677,285,42,42,https://thinking-tester-contact-list.herokuapp.com/users/login,1141,0,733
+1741675540756,1345,POST Login 61,401,Unauthorized,Stress Test 1-61,,false,Response was null,665,285,42,42,https://thinking-tester-contact-list.herokuapp.com/users/login,1345,0,735
+1741675541056,1070,POST Login 64,200,OK,Stress Test 1-64,text,true,,1273,285,42,42,https://thinking-tester-contact-list.herokuapp.com/users/login,1070,0,754
+1741675541156,1035,POST Login 65,200,OK,Stress Test 1-65,text,true,,1273,285,43,43,https://thinking-tester-contact-list.herokuapp.com/users/login,1035,0,742
+1741675541255,1029,POST Login 66,200,OK,Stress Test 1-66,text,true,,1273,285,44,44,https://thinking-tester-contact-list.herokuapp.com/users/login,1029,0,737
+1741675542021,269,GET Contact 56,200,OK,Stress Test 1-56,text,true,,1064,518,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfb49cdc400138cb944,269,0,0
+1741675542021,269,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-56,,true,,1064,518,44,44,null,269,0,0
+1741675542023,296,PATCH Contact 46,200,OK,Stress Test 1-46,text,true,,1074,680,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfb49cdc400138cb940,296,0,0
+1741675542074,309,PATCH Contact 48,200,OK,Stress Test 1-48,text,true,,1074,680,45,45,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff54d,309,0,0
+1741675542074,309,PATCH Contact 49,200,OK,Stress Test 1-49,text,true,,1074,680,45,45,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff54c,309,0,0
+1741675542095,276,DELETE Contact 44,200,OK,Stress Test 1-44,text,true,,764,656,45,45,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfad0f9bb00135ff546,276,0,0
+1741675542074,296,PUT Contact 54,200,OK,Stress Test 1-54,text,true,,1073,940,45,45,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff557,296,0,0
+1741675542094,275,PATCH Contact 53,200,OK,Stress Test 1-53,text,true,,1074,680,45,45,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff554,275,0,0
+1741675542075,288,PATCH Contact 47,200,OK,Stress Test 1-47,text,true,,1074,680,45,45,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff54e,288,0,0
+1741675542066,297,ADD Contact 60,201,Created,Stress Test 1-60,text,true,,1069,855,45,45,https://thinking-tester-contact-list.herokuapp.com/contacts,297,0,0
+1741675542101,251,ADD Contact 61,401,Unauthorized,Stress Test 1-61,text,false,,799,541,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts,251,0,0
+1741675542096,251,ADD Contact 63,401,Unauthorized,Stress Test 1-63,text,false,,799,541,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts,251,0,0
+1741675542075,271,GET Contact 59,200,OK,Stress Test 1-59,text,true,,1064,518,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfc49cdc400138cb946,271,0,0
+1741675542075,271,GET Contact 58,200,OK,Stress Test 1-58,text,true,,1064,518,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfc49cdc400138cb947,271,0,0
+1741675542084,250,ADD Contact 62,401,Unauthorized,Stress Test 1-62,text,false,,799,541,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts,250,0,0
+1741675542096,251,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-63,,false,,799,541,44,44,null,251,37,0
+1741675542101,251,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-61,,false,,799,541,44,44,null,251,32,0
+1741675542075,271,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-59,,true,,1064,518,44,44,null,271,38,0
+1741675542075,260,GET Contact 57,200,OK,Stress Test 1-57,text,true,,1064,518,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfcd0f9bb00135ff55b,260,0,0
+1741675542084,250,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-62,,false,,799,541,44,44,null,250,50,0
+1741675542066,297,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-60,,true,,1069,855,45,45,null,297,21,0
+1741675542075,271,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-58,,true,,1064,518,44,44,null,271,38,0
+1741675542075,260,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-57,,true,,1064,518,44,44,null,260,49,0
+1741675542126,269,ADD Contact 64,201,Created,Stress Test 1-64,text,true,,1069,855,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts,269,0,0
+1741675542126,269,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-64,,true,,1069,855,44,44,null,269,0,0
+1741675541356,1069,POST Login 67,200,OK,Stress Test 1-67,text,true,,1273,285,44,44,https://thinking-tester-contact-list.herokuapp.com/users/login,1069,0,763
+1741675542191,260,ADD Contact 65,201,Created,Stress Test 1-65,text,true,,1069,855,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts,260,0,0
+1741675542191,260,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-65,,true,,1069,855,44,44,null,260,0,0
+1741675541455,1068,POST Login 68,200,OK,Stress Test 1-68,text,true,,1273,285,45,45,https://thinking-tester-contact-list.herokuapp.com/users/login,1068,0,753
+1741675542384,246,GET Contact 62,401,Unauthorized,Stress Test 1-62,text,false,,799,180,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/,246,0,0
+1741675542384,246,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-62,,false,,799,180,46,46,null,246,0,0
+1741675542384,247,GET Contact 61,401,Unauthorized,Stress Test 1-61,text,false,,799,180,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/,247,0,0
+1741675542384,247,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-61,,false,,799,180,46,46,null,247,0,0
+1741675542384,247,GET Contact 63,401,Unauthorized,Stress Test 1-63,text,false,,799,180,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/,247,0,0
+1741675542384,247,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-63,,false,,799,180,46,46,null,247,0,0
+1741675542320,749,DELETE Contact 46,200,OK,Stress Test 1-46,text,true,,764,656,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfb49cdc400138cb940,749,0,0
+1741675542384,687,DELETE Contact 48,200,OK,Stress Test 1-48,text,true,,764,656,50,50,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff54d,687,0,0
+1741675542384,687,PUT Contact 57,200,OK,Stress Test 1-57,text,true,,1073,940,50,50,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfcd0f9bb00135ff55b,687,0,0
+1741675542384,692,PUT Contact 58,200,OK,Stress Test 1-58,text,true,,1073,940,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfc49cdc400138cb947,692,0,0
+1741675541656,1421,POST Login 70,200,OK,Stress Test 1-70,text,true,,1273,285,49,49,https://thinking-tester-contact-list.herokuapp.com/users/login,1421,0,762
+1741675542384,693,PUT Contact 59,200,OK,Stress Test 1-59,text,true,,1073,940,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfc49cdc400138cb946,693,0,0
+1741675542384,694,DELETE Contact 53,200,OK,Stress Test 1-53,text,true,,764,656,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff554,694,0,0
+1741675542426,652,ADD Contact 67,201,Created,Stress Test 1-67,text,true,,1069,855,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts,652,0,0
+1741675542426,652,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-67,,true,,1069,855,49,49,null,652,0,0
+1741675542384,711,GET Contact 60,200,OK,Stress Test 1-60,text,true,,1064,518,48,48,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfc49cdc400138cb94d,711,0,0
+1741675542395,700,GET Contact 64,200,OK,Stress Test 1-64,text,true,,1064,518,48,48,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfcd0f9bb00135ff562,700,0,0
+1741675542395,700,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-64,,true,,1064,518,48,48,null,700,0,0
+1741675542384,711,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-60,,true,,1064,518,48,48,null,711,0,0
+1741675542384,721,DELETE Contact 49,200,OK,Stress Test 1-49,text,true,,764,656,48,48,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff54c,721,0,0
+1741675541862,1244,POST Login 72,401,Unauthorized,Stress Test 1-72,,false,Response was null,673,285,47,47,https://thinking-tester-contact-list.herokuapp.com/users/login,1244,0,759
+1741675541556,1550,POST Login 69,401,Unauthorized,Stress Test 1-69,,false,Response was null,677,285,47,47,https://thinking-tester-contact-list.herokuapp.com/users/login,1550,0,756
+1741675542524,582,ADD Contact 68,201,Created,Stress Test 1-68,text,true,,1069,855,47,47,https://thinking-tester-contact-list.herokuapp.com/contacts,582,0,0
+1741675542524,582,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-68,,true,,1069,855,47,47,null,582,0,0
+1741675542384,724,PATCH Contact 54,200,OK,Stress Test 1-54,text,true,,1074,680,47,47,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff557,724,0,0
+1741675542385,724,DELETE Contact 47,200,OK,Stress Test 1-47,text,true,,764,656,47,47,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff54e,724,0,0
+1741675542290,839,PUT Contact 56,200,OK,Stress Test 1-56,text,true,,1073,940,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfb49cdc400138cb944,839,0,0
+1741675541756,1373,POST Login 71,401,Unauthorized,Stress Test 1-71,,false,Response was null,677,285,46,46,https://thinking-tester-contact-list.herokuapp.com/users/login,1373,0,757
+1741675542451,679,GET Contact 65,200,OK,Stress Test 1-65,text,true,,1064,518,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfc49cdc400138cb950,679,0,0
+1741675542451,679,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-65,,true,,1064,518,46,46,null,679,0,0
+1741675542284,854,ADD Contact 66,201,Created,Stress Test 1-66,text,true,,1069,855,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts,854,0,0
+1741675542284,854,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-66,,true,,1069,855,46,46,null,854,0,0
+1741675541962,1182,POST Login 73,401,Unauthorized,Stress Test 1-73,,false,Response was null,673,285,46,46,https://thinking-tester-contact-list.herokuapp.com/users/login,1182,0,750
+1741675542156,1045,POST Login 75,401,Unauthorized,Stress Test 1-75,,false,Response was null,673,285,47,47,https://thinking-tester-contact-list.herokuapp.com/users/login,1045,0,753
+1741675542062,1141,POST Login 74,200,OK,Stress Test 1-74,text,true,,1269,285,47,47,https://thinking-tester-contact-list.herokuapp.com/users/login,1141,0,766
+1741675542255,1057,POST Login 76,200,OK,Stress Test 1-76,text,true,,1269,285,48,48,https://thinking-tester-contact-list.herokuapp.com/users/login,1057,0,759
+1741675543071,262,PATCH Contact 57,200,OK,Stress Test 1-57,text,true,,1070,680,48,48,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfcd0f9bb00135ff55b,262,0,0
+1741675542356,1047,POST Login 77,200,OK,Stress Test 1-77,text,true,,1269,285,49,49,https://thinking-tester-contact-list.herokuapp.com/users/login,1047,0,737
+1741675543145,257,ADD Contact 73,401,Unauthorized,Stress Test 1-73,text,false,,795,541,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts,257,0,0
+1741675543108,290,DELETE Contact 54,200,OK,Stress Test 1-54,text,true,,760,656,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfbd0f9bb00135ff557,290,0,0
+1741675543129,261,ADD Contact 71,401,Unauthorized,Stress Test 1-71,text,false,,795,541,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts,261,0,0
+1741675543077,305,PATCH Contact 59,200,OK,Stress Test 1-59,text,true,,1070,680,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfc49cdc400138cb946,305,0,0
+1741675543144,257,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-73,,false,,795,541,49,49,null,257,4,0
+1741675543095,282,PUT Contact 60,200,OK,Stress Test 1-60,text,true,,1069,940,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfc49cdc400138cb94d,282,0,0
+1741675543095,273,PUT Contact 64,200,OK,Stress Test 1-64,text,true,,1069,940,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfcd0f9bb00135ff562,273,0,0
+1741675543106,259,ADD Contact 69,401,Unauthorized,Stress Test 1-69,text,false,,795,541,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts,259,0,0
+1741675543106,256,ADD Contact 72,401,Unauthorized,Stress Test 1-72,text,false,,795,541,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts,256,0,0
+1741675543129,261,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-71,,false,,795,541,49,49,null,261,15,0
+1741675543106,259,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-69,,false,,795,541,49,49,null,259,40,0
+1741675543106,256,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-72,,false,,795,541,49,49,null,256,43,0
+1741675543076,286,PATCH Contact 58,200,OK,Stress Test 1-58,text,true,,1070,680,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfc49cdc400138cb947,286,0,0
+1741675543077,271,ADD Contact 70,201,Created,Stress Test 1-70,text,true,,1065,855,48,48,https://thinking-tester-contact-list.herokuapp.com/contacts,271,0,0
+1741675543078,264,GET Contact 67,200,OK,Stress Test 1-67,text,true,,1060,518,48,48,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfd49cdc400138cb956,264,0,0
+1741675543077,271,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-70,,true,,1065,855,48,48,null,271,58,0
+1741675543078,264,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-67,,true,,1060,518,48,48,null,264,64,0
+1741675543106,300,GET Contact 68,200,OK,Stress Test 1-68,text,true,,1060,518,48,48,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfdd0f9bb00135ff568,300,0,0
+1741675543106,300,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-68,,true,,1060,518,48,48,null,300,0,0
+1741675543130,280,PUT Contact 65,200,OK,Stress Test 1-65,text,true,,1069,940,48,48,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfc49cdc400138cb950,280,0,0
+1741675543139,272,GET Contact 66,200,OK,Stress Test 1-66,text,true,,1060,518,48,48,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfd49cdc400138cb958,272,0,0
+1741675543138,272,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-66,,true,,1060,518,48,48,null,272,2,0
+1741675543129,292,PATCH Contact 56,200,OK,Stress Test 1-56,text,true,,1070,680,48,48,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfb49cdc400138cb944,292,0,0
+1741675542456,1029,POST Login 78,200,OK,Stress Test 1-78,text,true,,1269,285,49,49,https://thinking-tester-contact-list.herokuapp.com/users/login,1029,0,738
+1741675543203,286,ADD Contact 74,201,Created,Stress Test 1-74,text,true,,1065,855,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts,286,0,0
+1741675543203,286,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-74,,true,,1065,855,49,49,null,286,0,0
+1741675543201,328,ADD Contact 75,401,Unauthorized,Stress Test 1-75,text,false,,795,541,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts,328,0,0
+1741675543201,328,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-75,,false,,795,541,49,49,null,328,1,0
+1741675543405,252,GET Contact 73,401,Unauthorized,Stress Test 1-73,text,false,,795,180,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/,252,0,0
+1741675543405,252,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-73,,false,,795,180,51,51,null,252,0,0
+1741675543405,253,GET Contact 69,401,Unauthorized,Stress Test 1-69,text,false,,795,180,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/,253,0,0
+1741675543405,253,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-69,,false,,795,180,51,51,null,253,1,0
+1741675543405,256,GET Contact 72,401,Unauthorized,Stress Test 1-72,text,false,,795,180,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/,256,0,0
+1741675543405,256,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-72,,false,,795,180,51,51,null,256,0,0
+1741675543405,257,GET Contact 71,401,Unauthorized,Stress Test 1-71,text,false,,795,180,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/,257,0,0
+1741675543405,257,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-71,,false,,795,180,51,51,null,257,0,0
+1741675543530,252,GET Contact 75,401,Unauthorized,Stress Test 1-75,text,false,,795,180,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts/,252,0,0
+1741675543530,252,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-75,,false,,795,180,52,52,null,252,0,0
+1741675543406,631,DELETE Contact 59,200,OK,Stress Test 1-59,text,true,,760,656,54,54,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfc49cdc400138cb946,631,0,0
+1741675543312,725,ADD Contact 76,201,Created,Stress Test 1-76,text,true,,1065,855,54,54,https://thinking-tester-contact-list.herokuapp.com/contacts,725,0,0
+1741675543312,725,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-76,,true,,1065,855,54,54,null,725,0,0
+1741675543421,616,DELETE Contact 56,200,OK,Stress Test 1-56,text,true,,760,656,54,54,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfb49cdc400138cb944,616,0,0
+1741675543486,572,ADD Contact 78,201,Created,Stress Test 1-78,text,true,,1065,855,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts,572,0,0
+1741675543486,572,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-78,,true,,1065,855,53,53,null,572,0,0
+1741675542956,1104,POST Login 83,401,Unauthorized,Stress Test 1-83,,false,Response was null,673,285,53,53,https://thinking-tester-contact-list.herokuapp.com/users/login,1104,0,734
+1741675543406,657,GET Contact 70,200,OK,Stress Test 1-70,text,true,,1060,518,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfdd0f9bb00135ff56c,657,0,0
+1741675543406,657,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-70,,true,,1060,518,53,53,null,657,0,0
+1741675543405,686,PATCH Contact 60,200,OK,Stress Test 1-60,text,true,,1070,680,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfc49cdc400138cb94d,686,0,0
+1741675543407,685,PUT Contact 68,200,OK,Stress Test 1-68,text,true,,1069,940,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfdd0f9bb00135ff568,685,0,0
+1741675543411,683,PATCH Contact 65,200,OK,Stress Test 1-65,text,true,,1070,680,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfc49cdc400138cb950,683,0,0
+1741675543333,763,DELETE Contact 57,200,OK,Stress Test 1-57,text,true,,760,656,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfcd0f9bb00135ff55b,763,0,0
+1741675543406,691,DELETE Contact 58,200,OK,Stress Test 1-58,text,true,,760,656,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfc49cdc400138cb947,691,0,0
+1741675543405,692,PATCH Contact 64,200,OK,Stress Test 1-64,text,true,,1070,680,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfcd0f9bb00135ff562,692,0,0
+1741675543412,686,PUT Contact 66,200,OK,Stress Test 1-66,text,true,,1069,940,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfd49cdc400138cb958,686,0,0
+1741675542555,1547,POST Login 79,200,OK,Stress Test 1-79,text,true,,1269,285,51,51,https://thinking-tester-contact-list.herokuapp.com/users/login,1547,0,738
+1741675543056,1056,POST Login 84,200,OK,Stress Test 1-84,text,true,,1269,285,51,51,https://thinking-tester-contact-list.herokuapp.com/users/login,1056,0,756
+1741675542756,1395,POST Login 81,401,Unauthorized,Stress Test 1-81,,false,Response was null,673,285,51,51,https://thinking-tester-contact-list.herokuapp.com/users/login,1395,0,758
+1741675542857,1294,POST Login 82,401,Unauthorized,Stress Test 1-82,,false,Response was null,673,285,51,51,https://thinking-tester-contact-list.herokuapp.com/users/login,1294,0,764
+1741675542656,1498,POST Login 80,401,Unauthorized,Stress Test 1-80,,false,Response was null,673,285,51,51,https://thinking-tester-contact-list.herokuapp.com/users/login,1498,0,744
+1741675543406,749,PUT Contact 67,200,OK,Stress Test 1-67,text,true,,1069,940,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfd49cdc400138cb956,749,0,0
+1741675543489,667,GET Contact 74,200,OK,Stress Test 1-74,text,true,,1060,518,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfdd0f9bb00135ff570,667,0,0
+1741675543489,667,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-74,,true,,1060,518,52,52,null,667,0,0
+1741675543405,752,ADD Contact 77,201,Created,Stress Test 1-77,text,true,,1065,855,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts,752,0,0
+1741675543405,752,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-77,,true,,1065,855,52,52,null,752,0,0
+1741675543157,1046,POST Login 85,200,OK,Stress Test 1-85,text,true,,1269,285,52,52,https://thinking-tester-contact-list.herokuapp.com/users/login,1046,0,739
+1741675544061,248,ADD Contact 83,401,Unauthorized,Stress Test 1-83,text,false,,795,541,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts,248,0,0
+1741675544061,248,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-83,,false,,795,541,53,53,null,248,1,0
+1741675544038,280,GET Contact 76,200,OK,Stress Test 1-76,text,true,,1060,518,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfdd0f9bb00135ff572,280,0,0
+1741675544038,280,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-76,,true,,1060,518,53,53,null,280,0,0
+1741675543256,1064,POST Login 86,200,OK,Stress Test 1-86,text,true,,1269,285,53,53,https://thinking-tester-contact-list.herokuapp.com/users/login,1064,0,764
+1741675544059,263,GET Contact 78,200,OK,Stress Test 1-78,text,true,,1060,518,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfed0f9bb00135ff574,262,0,0
+1741675544059,263,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-78,,true,,1060,518,53,53,null,262,0,0
+1741675544064,270,PUT Contact 70,200,OK,Stress Test 1-70,text,true,,1069,940,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfdd0f9bb00135ff56c,270,0,0
+1741675544093,258,DELETE Contact 60,200,OK,Stress Test 1-60,text,true,,760,656,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfc49cdc400138cb94d,258,0,0
+1741675544099,263,PATCH Contact 66,200,OK,Stress Test 1-66,text,true,,1070,680,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfd49cdc400138cb958,263,0,0
+1741675544096,266,DELETE Contact 65,200,OK,Stress Test 1-65,text,true,,760,656,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfc49cdc400138cb950,266,0,0
+1741675544153,279,ADD Contact 82,401,Unauthorized,Stress Test 1-82,text,false,,795,541,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts,279,0,0
+1741675544153,278,ADD Contact 81,401,Unauthorized,Stress Test 1-81,text,false,,795,541,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts,278,0,0
+1741675544155,274,ADD Contact 80,401,Unauthorized,Stress Test 1-80,text,false,,795,541,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts,274,0,0
+1741675544094,305,PATCH Contact 68,200,OK,Stress Test 1-68,text,true,,1070,680,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfdd0f9bb00135ff568,305,0,0
+1741675544103,288,ADD Contact 79,201,Created,Stress Test 1-79,text,true,,1065,855,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts,288,0,0
+1741675544159,255,GET Contact 77,200,OK,Stress Test 1-77,text,true,,1060,518,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfe49cdc400138cb962,255,0,0
+1741675544113,270,ADD Contact 84,201,Created,Stress Test 1-84,text,true,,1065,855,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts,270,0,0
+1741675544098,270,DELETE Contact 64,200,OK,Stress Test 1-64,text,true,,760,656,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfcd0f9bb00135ff562,270,0,0
+1741675544153,278,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-81,,false,,795,541,52,52,null,278,8,0
+1741675544153,279,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-82,,false,,795,541,52,52,null,279,7,0
+1741675544103,288,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-79,,true,,1065,855,52,52,null,288,48,0
+1741675544155,274,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-80,,false,,795,541,52,52,null,274,10,0
+1741675544158,255,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-77,,true,,1060,518,52,52,null,255,26,0
+1741675544113,270,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-84,,true,,1065,855,52,52,null,270,56,0
+1741675543356,1071,POST Login 87,200,OK,Stress Test 1-87,text,true,,1269,285,52,52,https://thinking-tester-contact-list.herokuapp.com/users/login,1071,0,751
+1741675544157,271,PUT Contact 74,200,OK,Stress Test 1-74,text,true,,1069,940,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfdd0f9bb00135ff570,271,0,0
+1741675544156,288,PATCH Contact 67,200,OK,Stress Test 1-67,text,true,,1070,680,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfd49cdc400138cb956,288,0,0
+1741675544204,259,ADD Contact 85,201,Created,Stress Test 1-85,text,true,,1065,855,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts,259,0,0
+1741675544204,259,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-85,,true,,1065,855,52,52,null,259,0,0
+1741675544310,245,GET Contact 83,401,Unauthorized,Stress Test 1-83,text,false,,795,180,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts/,245,0,0
+1741675544310,245,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-83,,false,,795,180,52,52,null,245,0,0
+1741675544439,255,GET Contact 80,401,Unauthorized,Stress Test 1-80,text,false,,795,180,54,54,https://thinking-tester-contact-list.herokuapp.com/contacts/,255,0,0
+1741675544439,255,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-80,,false,,795,180,54,54,null,255,0,0
+1741675544439,255,GET Contact 82,401,Unauthorized,Stress Test 1-82,text,false,,795,180,54,54,https://thinking-tester-contact-list.herokuapp.com/contacts/,255,0,0
+1741675544439,255,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-82,,false,,795,180,54,54,null,255,0,0
+1741675544439,257,GET Contact 81,401,Unauthorized,Stress Test 1-81,text,false,,795,180,54,54,https://thinking-tester-contact-list.herokuapp.com/contacts/,257,0,0
+1741675544439,257,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-81,,false,,795,180,54,54,null,257,0,0
+1741675543456,1555,POST Login 88,200,OK,Stress Test 1-88,text,true,,1269,285,54,54,https://thinking-tester-contact-list.herokuapp.com/users/login,1555,0,756
+1741675544444,648,DELETE Contact 67,200,OK,Stress Test 1-67,text,true,,760,656,54,54,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfd49cdc400138cb956,648,0,0
+1741675544322,770,PUT Contact 78,200,OK,Stress Test 1-78,text,true,,1069,940,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfed0f9bb00135ff574,770,0,0
+1741675544362,731,DELETE Contact 66,200,OK,Stress Test 1-66,text,true,,760,656,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfd49cdc400138cb958,731,0,0
+1741675544439,654,PUT Contact 77,200,OK,Stress Test 1-77,text,true,,1069,940,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfe49cdc400138cb962,654,0,0
+1741675544439,654,ADD Contact 87,201,Created,Stress Test 1-87,text,true,,1065,855,53,53,https://thinking-tester-contact-list.herokuapp.com/contacts,654,0,0
+1741675544439,654,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-87,,true,,1065,855,53,53,null,654,1,0
+1741675544321,773,ADD Contact 86,201,Created,Stress Test 1-86,text,true,,1065,855,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts,773,0,0
+1741675544321,773,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-86,,true,,1065,855,52,52,null,773,0,0
+1741675544439,656,DELETE Contact 68,200,OK,Stress Test 1-68,text,true,,760,656,52,52,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfdd0f9bb00135ff568,656,0,0
+1741675544318,778,PUT Contact 76,200,OK,Stress Test 1-76,text,true,,1069,940,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfdd0f9bb00135ff572,778,0,0
+1741675544439,657,PATCH Contact 74,200,OK,Stress Test 1-74,text,true,,1070,680,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfdd0f9bb00135ff570,657,0,0
+1741675544439,691,GET Contact 84,200,OK,Stress Test 1-84,text,true,,1060,518,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfed0f9bb00135ff579,691,0,0
+1741675544439,691,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-84,,true,,1060,518,51,51,null,691,0,0
+1741675544463,673,GET Contact 85,200,OK,Stress Test 1-85,text,true,,1060,518,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfe49cdc400138cb96b,673,0,0
+1741675544463,673,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-85,,true,,1060,518,51,51,null,673,0,0
+1741675543557,1581,POST Login 89,401,Unauthorized,Stress Test 1-89,,false,Response was null,673,285,51,51,https://thinking-tester-contact-list.herokuapp.com/users/login,1581,0,730
+1741675543756,1384,POST Login 91,401,Unauthorized,Stress Test 1-91,,false,Response was null,673,285,51,51,https://thinking-tester-contact-list.herokuapp.com/users/login,1384,0,766
+1741675544439,714,GET Contact 79,200,OK,Stress Test 1-79,text,true,,1060,518,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfe49cdc400138cb967,714,0,0
+1741675544439,714,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-79,,true,,1060,518,51,51,null,714,0,0
+1741675543856,1299,POST Login 92,200,OK,Stress Test 1-92,text,true,,1269,285,51,51,https://thinking-tester-contact-list.herokuapp.com/users/login,1299,0,754
+1741675544334,824,PATCH Contact 70,200,OK,Stress Test 1-70,text,true,,1070,680,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfdd0f9bb00135ff56c,824,0,0
+1741675543657,1500,POST Login 90,401,Unauthorized,Stress Test 1-90,,false,Response was null,673,285,51,51,https://thinking-tester-contact-list.herokuapp.com/users/login,1500,0,737
+1741675543957,1274,POST Login 93,401,Unauthorized,Stress Test 1-93,,false,Response was null,673,285,51,51,https://thinking-tester-contact-list.herokuapp.com/users/login,1274,0,763
+1741675544057,1204,POST Login 94,200,OK,Stress Test 1-94,text,true,,1269,285,51,51,https://thinking-tester-contact-list.herokuapp.com/users/login,1204,0,756
+1741675544156,1116,POST Login 95,401,Unauthorized,Stress Test 1-95,,false,Response was null,673,285,51,51,https://thinking-tester-contact-list.herokuapp.com/users/login,1116,0,736
+1741675545013,291,ADD Contact 88,201,Created,Stress Test 1-88,text,true,,1065,855,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts,291,0,0
+1741675545013,291,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-88,,true,,1065,855,51,51,null,291,0,0
+1741675544257,1065,POST Login 96,200,OK,Stress Test 1-96,text,true,,1269,285,51,51,https://thinking-tester-contact-list.herokuapp.com/users/login,1065,0,764
+1741675545093,264,PATCH Contact 78,200,OK,Stress Test 1-78,text,true,,1070,680,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfed0f9bb00135ff574,264,0,0
+1741675545093,278,PATCH Contact 77,200,OK,Stress Test 1-77,text,true,,1070,680,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfe49cdc400138cb962,278,0,0
+1741675545157,274,ADD Contact 92,201,Created,Stress Test 1-92,text,true,,1065,855,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts,274,0,0
+1741675545158,274,DELETE Contact 70,200,OK,Stress Test 1-70,text,true,,760,656,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfdd0f9bb00135ff56c,274,0,0
+1741675545153,271,PUT Contact 79,200,OK,Stress Test 1-79,text,true,,1069,940,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfe49cdc400138cb967,271,0,0
+1741675545136,283,PUT Contact 85,200,OK,Stress Test 1-85,text,true,,1069,940,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfe49cdc400138cb96b,283,0,0
+1741675545096,321,PATCH Contact 76,200,OK,Stress Test 1-76,text,true,,1070,680,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfdd0f9bb00135ff572,321,0,0
+1741675545094,312,GET Contact 86,200,OK,Stress Test 1-86,text,true,,1060,518,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddffd0f9bb00135ff57d,312,0,0
+1741675545159,246,ADD Contact 90,401,Unauthorized,Stress Test 1-90,text,false,,795,541,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts,246,0,0
+1741675545157,274,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-92,,true,,1065,855,51,51,null,274,1,0
+1741675544357,1044,POST Login 97,200,OK,Stress Test 1-97,text,true,,1269,285,51,51,https://thinking-tester-contact-list.herokuapp.com/users/login,1044,0,740
+1741675545131,266,PUT Contact 84,200,OK,Stress Test 1-84,text,true,,1069,940,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfed0f9bb00135ff579,266,0,0
+1741675545142,255,ADD Contact 91,401,Unauthorized,Stress Test 1-91,text,false,,795,541,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts,255,0,0
+1741675545094,298,GET Contact 87,200,OK,Stress Test 1-87,text,true,,1060,518,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddffd0f9bb00135ff57f,298,0,0
+1741675545094,312,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-86,,true,,1060,518,51,51,null,312,26,0
+1741675545159,246,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-90,,false,,795,541,51,51,null,246,27,0
+1741675545141,255,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-91,,false,,795,541,51,51,null,255,36,0
+1741675545094,298,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-87,,true,,1060,518,51,51,null,298,40,0
+1741675545096,288,DELETE Contact 74,200,OK,Stress Test 1-74,text,true,,760,656,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfdd0f9bb00135ff570,288,0,0
+1741675545139,245,ADD Contact 89,401,Unauthorized,Stress Test 1-89,text,false,,795,541,51,51,https://thinking-tester-contact-list.herokuapp.com/contacts,245,0,0
+1741675545139,245,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-89,,false,,795,541,51,51,null,245,48,0
+1741675545232,256,ADD Contact 93,401,Unauthorized,Stress Test 1-93,text,false,,795,541,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts,256,0,0
+1741675545232,256,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-93,,false,,795,541,49,49,null,256,0,0
+1741675544457,1044,POST Login 98,200,OK,Stress Test 1-98,text,true,,1269,285,49,49,https://thinking-tester-contact-list.herokuapp.com/users/login,1044,0,751
+1741675545272,247,ADD Contact 95,401,Unauthorized,Stress Test 1-95,text,false,,795,541,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts,247,0,0
+1741675545272,247,ADD Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-95,,false,,795,541,49,49,null,247,0,0
+1741675545261,267,ADD Contact 94,201,Created,Stress Test 1-94,text,true,,1065,855,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts,267,0,0
+1741675545261,267,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-94,,true,,1065,855,49,49,null,267,1,0
+1741675545304,261,GET Contact 88,200,OK,Stress Test 1-88,text,true,,1060,518,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddff49cdc400138cb975,261,0,0
+1741675545304,261,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-88,,true,,1060,518,49,49,null,261,1,0
+1741675544556,1065,POST Login 99,200,OK,Stress Test 1-99,text,true,,1269,285,49,49,https://thinking-tester-contact-list.herokuapp.com/users/login,1065,0,759
+1741675545432,247,GET Contact 90,401,Unauthorized,Stress Test 1-90,text,false,,795,180,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts/,247,0,0
+1741675545432,247,GET Contact 89,401,Unauthorized,Stress Test 1-89,text,false,,795,180,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts/,247,0,0
+1741675545432,247,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-90,,false,,795,180,49,49,null,247,0,0
+1741675545432,247,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-89,,false,,795,180,49,49,null,247,0,0
+1741675545432,256,GET Contact 91,401,Unauthorized,Stress Test 1-91,text,false,,795,180,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts/,256,0,0
+1741675545432,256,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-91,,false,,795,180,49,49,null,256,0,0
+1741675545488,257,GET Contact 93,401,Unauthorized,Stress Test 1-93,text,false,,795,180,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts/,257,0,0
+1741675545488,257,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-93,,false,,795,180,49,49,null,257,0,0
+1741675545519,248,GET Contact 95,401,Unauthorized,Stress Test 1-95,text,false,,795,180,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts/,248,0,0
+1741675545519,248,GET Contact,,"Number of samples in transaction : 1, number of failing samples : 1",Stress Test 1-95,,false,,795,180,49,49,null,248,0,0
+1741675545357,650,DELETE Contact 78,200,OK,Stress Test 1-78,text,true,,760,656,49,49,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfed0f9bb00135ff574,650,0,0
+1741675545529,492,GET Contact 94,200,OK,Stress Test 1-94,text,true,,1060,518,48,48,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddff49cdc400138cb978,492,0,0
+1741675545529,492,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-94,,true,,1060,518,48,48,null,492,0,0
+1741675545432,597,GET Contact 92,200,OK,Stress Test 1-92,text,true,,1060,518,48,48,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddffd0f9bb00135ff582,597,0,0
+1741675545432,597,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-92,,true,,1060,518,48,48,null,597,0,0
+1741675545566,467,PUT Contact 88,200,OK,Stress Test 1-88,text,true,,1069,940,48,48,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddff49cdc400138cb975,467,0,0
+1741675545621,412,ADD Contact 99,201,Created,Stress Test 1-99,text,true,,1069,855,48,48,https://thinking-tester-contact-list.herokuapp.com/contacts,412,0,0
+1741675545621,412,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-99,,true,,1069,855,48,48,null,412,0,0
+1741675545432,617,PUT Contact 87,200,OK,Stress Test 1-87,text,true,,1069,940,48,48,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddffd0f9bb00135ff57f,617,0,0
+1741675545432,618,DELETE Contact 76,200,OK,Stress Test 1-76,text,true,,760,656,48,48,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfdd0f9bb00135ff572,618,0,0
+1741675545432,618,PUT Contact 86,200,OK,Stress Test 1-86,text,true,,1069,940,47,47,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddffd0f9bb00135ff57d,618,0,0
+1741675545502,551,ADD Contact 98,201,Created,Stress Test 1-98,text,true,,1065,855,47,47,https://thinking-tester-contact-list.herokuapp.com/contacts,551,0,0
+1741675545502,551,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-98,,true,,1065,855,47,47,null,551,0,0
+1741675545371,683,DELETE Contact 77,200,OK,Stress Test 1-77,text,true,,760,656,47,47,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfe49cdc400138cb962,683,0,0
+1741675545432,622,ADD Contact 97,201,Created,Stress Test 1-97,text,true,,1065,855,47,47,https://thinking-tester-contact-list.herokuapp.com/contacts,622,0,0
+1741675545432,622,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-97,,true,,1065,855,47,47,null,622,0,0
+1741675545432,632,PATCH Contact 85,200,OK,Stress Test 1-85,text,true,,1070,680,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfe49cdc400138cb96b,632,0,0
+1741675545432,659,PATCH Contact 84,200,OK,Stress Test 1-84,text,true,,1070,680,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfed0f9bb00135ff579,659,0,0
+1741675545432,663,PATCH Contact 79,200,OK,Stress Test 1-79,text,true,,1070,680,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfe49cdc400138cb967,663,0,0
+1741675544657,1442,POST Login 100,200,OK,Stress Test 1-100,text,true,,1269,285,46,46,https://thinking-tester-contact-list.herokuapp.com/users/login,1442,0,760
+1741675545322,780,ADD Contact 96,201,Created,Stress Test 1-96,text,true,,1065,855,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts,779,0,0
+1741675545322,780,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-96,,true,,1065,855,46,46,null,779,0,0
+1741675546021,274,PUT Contact 94,200,OK,Stress Test 1-94,text,true,,1073,940,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddff49cdc400138cb978,274,0,0
+1741675546029,270,PUT Contact 92,200,OK,Stress Test 1-92,text,true,,1073,940,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddffd0f9bb00135ff582,270,0,0
+1741675546033,267,GET Contact 99,200,OK,Stress Test 1-99,text,true,,1064,518,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde00d0f9bb00135ff587,267,0,0
+1741675546033,267,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-99,,true,,1064,518,46,46,null,267,0,0
+1741675546033,280,PATCH Contact 88,200,OK,Stress Test 1-88,text,true,,1074,680,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddff49cdc400138cb975,280,0,0
+1741675546054,261,GET Contact 97,200,OK,Stress Test 1-97,text,true,,1064,518,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde00d0f9bb00135ff589,261,0,0
+1741675546054,261,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-97,,true,,1064,518,46,46,null,261,0,0
+1741675546050,271,PATCH Contact 86,200,OK,Stress Test 1-86,text,true,,1074,680,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddffd0f9bb00135ff57d,271,0,0
+1741675546053,298,GET Contact 98,200,OK,Stress Test 1-98,text,true,,1064,518,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde00d0f9bb00135ff588,298,0,0
+1741675546053,298,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-98,,true,,1064,518,46,46,null,298,0,0
+1741675546049,308,PATCH Contact 87,200,OK,Stress Test 1-87,text,true,,1074,680,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddffd0f9bb00135ff57f,308,0,0
+1741675546065,299,DELETE Contact 85,200,OK,Stress Test 1-85,text,true,,764,656,46,46,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfe49cdc400138cb96b,298,0,0
+1741675546095,269,DELETE Contact 79,200,OK,Stress Test 1-79,text,true,,764,656,45,45,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfe49cdc400138cb967,269,0,0
+1741675546099,270,ADD Contact 100,201,Created,Stress Test 1-100,text,true,,1069,855,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts,270,0,0
+1741675546099,270,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-100,,true,,1069,855,44,44,null,270,1,0
+1741675546091,281,DELETE Contact 84,200,OK,Stress Test 1-84,text,true,,764,656,44,44,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddfed0f9bb00135ff579,281,0,0
+1741675546102,294,GET Contact 96,200,OK,Stress Test 1-96,text,true,,1064,518,43,43,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde0049cdc400138cb97d,294,0,0
+1741675546102,294,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-96,,true,,1064,518,43,43,null,294,50,0
+1741675546295,275,PATCH Contact 94,200,OK,Stress Test 1-94,text,true,,1074,680,43,43,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddff49cdc400138cb978,275,0,0
+1741675546300,272,PUT Contact 99,200,OK,Stress Test 1-99,text,true,,1073,940,43,43,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde00d0f9bb00135ff587,272,0,0
+1741675546299,279,PATCH Contact 92,200,OK,Stress Test 1-92,text,true,,1074,680,43,43,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddffd0f9bb00135ff582,279,0,0
+1741675546314,277,DELETE Contact 88,200,OK,Stress Test 1-88,text,true,,764,656,43,43,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddff49cdc400138cb975,277,0,0
+1741675546321,270,DELETE Contact 86,200,OK,Stress Test 1-86,text,true,,764,656,43,43,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddffd0f9bb00135ff57d,270,0,0
+1741675546315,694,PUT Contact 97,200,OK,Stress Test 1-97,text,true,,1073,940,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde00d0f9bb00135ff589,694,0,0
+1741675546352,686,PUT Contact 98,200,OK,Stress Test 1-98,text,true,,1073,940,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde00d0f9bb00135ff588,686,0,0
+1741675546446,592,PUT Contact 96,200,OK,Stress Test 1-96,text,true,,1073,940,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde0049cdc400138cb97d,592,0,0
+1741675546370,669,GET Contact 100,200,OK,Stress Test 1-100,text,true,,1064,518,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde0049cdc400138cb980,669,0,0
+1741675546370,669,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Stress Test 1-100,,true,,1064,518,41,41,null,669,0,0
+1741675546357,682,DELETE Contact 87,200,OK,Stress Test 1-87,text,true,,764,656,41,41,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddffd0f9bb00135ff57f,682,0,0
+1741675546570,481,DELETE Contact 94,200,OK,Stress Test 1-94,text,true,,764,656,40,40,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddff49cdc400138cb978,481,0,0
+1741675546578,475,DELETE Contact 92,200,OK,Stress Test 1-92,text,true,,764,656,39,39,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfddffd0f9bb00135ff582,475,0,0
+1741675546572,486,PATCH Contact 99,200,OK,Stress Test 1-99,text,true,,1074,680,38,38,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde00d0f9bb00135ff587,486,0,0
+1741675547009,262,PATCH Contact 97,200,OK,Stress Test 1-97,text,true,,1066,680,38,38,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde00d0f9bb00135ff589,262,0,0
+1741675547038,271,PATCH Contact 98,200,OK,Stress Test 1-98,text,true,,1066,680,38,38,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde00d0f9bb00135ff588,271,0,0
+1741675547039,273,PUT Contact 100,200,OK,Stress Test 1-100,text,true,,1065,940,38,38,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde0049cdc400138cb980,273,0,0
+1741675547038,296,PATCH Contact 96,200,OK,Stress Test 1-96,text,true,,1066,680,38,38,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde0049cdc400138cb97d,296,0,0
+1741675547058,290,DELETE Contact 99,200,OK,Stress Test 1-99,text,true,,756,656,38,38,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde00d0f9bb00135ff587,290,0,0
+1741675547271,262,DELETE Contact 97,200,OK,Stress Test 1-97,text,true,,756,656,37,37,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde00d0f9bb00135ff589,262,0,0
+1741675547309,270,DELETE Contact 98,200,OK,Stress Test 1-98,text,true,,756,656,36,36,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde00d0f9bb00135ff588,270,0,0
+1741675547312,279,PATCH Contact 100,200,OK,Stress Test 1-100,text,true,,1066,680,35,35,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde0049cdc400138cb980,279,0,0
+1741675547334,310,DELETE Contact 96,200,OK,Stress Test 1-96,text,true,,756,656,35,35,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde0049cdc400138cb97d,310,0,0
+1741675547591,265,DELETE Contact 100,200,OK,Stress Test 1-100,text,true,,756,656,34,34,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde0049cdc400138cb980,265,0,0
+1741675538629,30253,PUT Contact 24,503,Service Unavailable,Stress Test 1-24,text,false,,1220,550,33,33,https://thinking-tester-contact-list.herokuapp.com/contacts/,30253,0,0
+1741675538663,30246,PUT Contact 20,503,Service Unavailable,Stress Test 1-20,text,false,,1220,550,32,32,https://thinking-tester-contact-list.herokuapp.com/contacts/,30246,0,0
+1741675538669,30249,PUT Contact 21,503,Service Unavailable,Stress Test 1-21,text,false,,1220,550,31,31,https://thinking-tester-contact-list.herokuapp.com/contacts/,30249,0,0
+1741675538682,30254,PUT Contact 23,503,Service Unavailable,Stress Test 1-23,text,false,,1220,550,30,30,https://thinking-tester-contact-list.herokuapp.com/contacts/,30254,0,0
+1741675539628,30244,PUT Contact 32,503,Service Unavailable,Stress Test 1-32,text,false,,1224,550,29,29,https://thinking-tester-contact-list.herokuapp.com/contacts/,30244,0,0
+1741675539651,30251,PUT Contact 31,503,Service Unavailable,Stress Test 1-31,text,false,,1224,550,28,28,https://thinking-tester-contact-list.herokuapp.com/contacts/,30251,0,0
+1741675539655,30255,PUT Contact 33,503,Service Unavailable,Stress Test 1-33,text,false,,1224,550,27,27,https://thinking-tester-contact-list.herokuapp.com/contacts/,30255,0,0
+1741675539660,30253,PUT Contact 29,503,Service Unavailable,Stress Test 1-29,text,false,,1224,550,26,26,https://thinking-tester-contact-list.herokuapp.com/contacts/,30253,0,0
+1741675539731,30247,PUT Contact 35,503,Service Unavailable,Stress Test 1-35,text,false,,1224,550,25,25,https://thinking-tester-contact-list.herokuapp.com/contacts/,30247,0,0
+1741675540603,30250,PUT Contact 43,503,Service Unavailable,Stress Test 1-43,text,false,,1216,550,24,24,https://thinking-tester-contact-list.herokuapp.com/contacts/,30250,0,0
+1741675540613,30253,PUT Contact 42,503,Service Unavailable,Stress Test 1-42,text,false,,1216,550,23,23,https://thinking-tester-contact-list.herokuapp.com/contacts/,30253,0,0
+1741675540617,30256,PUT Contact 41,503,Service Unavailable,Stress Test 1-41,text,false,,1216,550,22,22,https://thinking-tester-contact-list.herokuapp.com/contacts/,30256,0,0
+1741675541688,30247,PUT Contact 51,503,Service Unavailable,Stress Test 1-51,text,false,,1228,550,21,21,https://thinking-tester-contact-list.herokuapp.com/contacts/,30247,0,0
+1741675541707,30252,PUT Contact 52,503,Service Unavailable,Stress Test 1-52,text,false,,1228,550,20,20,https://thinking-tester-contact-list.herokuapp.com/contacts/,30252,0,0
+1741675541707,30255,PUT Contact 50,503,Service Unavailable,Stress Test 1-50,text,false,,1228,550,19,19,https://thinking-tester-contact-list.herokuapp.com/contacts/,30255,0,0
+1741675541777,30250,PUT Contact 55,503,Service Unavailable,Stress Test 1-55,text,false,,1228,550,18,18,https://thinking-tester-contact-list.herokuapp.com/contacts/,30250,0,0
+1741675542631,30245,PUT Contact 63,503,Service Unavailable,Stress Test 1-63,text,false,,1224,550,17,17,https://thinking-tester-contact-list.herokuapp.com/contacts/,30245,0,0
+1741675542630,30246,PUT Contact 62,503,Service Unavailable,Stress Test 1-62,text,false,,1224,550,16,16,https://thinking-tester-contact-list.herokuapp.com/contacts/,30246,0,0
+1741675542631,30247,PUT Contact 61,503,Service Unavailable,Stress Test 1-61,text,false,,1224,550,15,15,https://thinking-tester-contact-list.herokuapp.com/contacts/,30247,0,0
+1741675543657,30250,PUT Contact 73,503,Service Unavailable,Stress Test 1-73,text,false,,1224,550,14,14,https://thinking-tester-contact-list.herokuapp.com/contacts/,30250,0,0
+1741675543659,30252,PUT Contact 69,503,Service Unavailable,Stress Test 1-69,text,false,,1224,550,13,13,https://thinking-tester-contact-list.herokuapp.com/contacts/,30252,0,0
+1741675543662,30254,PUT Contact 71,503,Service Unavailable,Stress Test 1-71,text,false,,1224,550,12,12,https://thinking-tester-contact-list.herokuapp.com/contacts/,30254,0,0
+1741675543661,30255,PUT Contact 72,503,Service Unavailable,Stress Test 1-72,text,false,,1224,550,11,11,https://thinking-tester-contact-list.herokuapp.com/contacts/,30255,0,0
+1741675543782,30251,PUT Contact 75,503,Service Unavailable,Stress Test 1-75,text,false,,1224,550,10,10,https://thinking-tester-contact-list.herokuapp.com/contacts/,30251,0,0
+1741675544555,30245,PUT Contact 83,503,Service Unavailable,Stress Test 1-83,text,false,,1224,550,9,9,https://thinking-tester-contact-list.herokuapp.com/contacts/,30245,0,0
+1741675544694,30255,PUT Contact 82,503,Service Unavailable,Stress Test 1-82,text,false,,1224,550,8,8,https://thinking-tester-contact-list.herokuapp.com/contacts/,30255,0,0
+1741675544696,30252,PUT Contact 81,503,Service Unavailable,Stress Test 1-81,text,false,,1224,550,8,8,https://thinking-tester-contact-list.herokuapp.com/contacts/,30252,0,0
+1741675544694,30251,PUT Contact 80,503,Service Unavailable,Stress Test 1-80,text,false,,1224,550,8,8,https://thinking-tester-contact-list.herokuapp.com/contacts/,30251,0,0
+1741675545679,30246,PUT Contact 90,503,Service Unavailable,Stress Test 1-90,text,false,,1228,550,5,5,https://thinking-tester-contact-list.herokuapp.com/contacts/,30246,0,0
+1741675545679,30246,PUT Contact 89,503,Service Unavailable,Stress Test 1-89,text,false,,1228,550,4,4,https://thinking-tester-contact-list.herokuapp.com/contacts/,30246,0,0
+1741675545688,30256,PUT Contact 91,503,Service Unavailable,Stress Test 1-91,text,false,,1228,550,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/,30256,0,0
+1741675545745,30256,PUT Contact 93,503,Service Unavailable,Stress Test 1-93,text,false,,1228,550,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/,30256,0,0
+1741675545767,30246,PUT Contact 95,503,Service Unavailable,Stress Test 1-95,text,false,,1228,550,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/,30246,0,0

@@ -1,0 +1,81 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1741675617497,1050,POST Login 1,200,OK,Load Test 1-1,text,true,,1261,285,2,2,https://thinking-tester-contact-list.herokuapp.com/users/login,1050,0,738
+1741675618547,265,ADD Contact 1,201,Created,Load Test 1-1,text,true,,1057,855,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,265,0,0
+1741675618547,265,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-1,,true,,1057,855,2,2,null,265,1,0
+1741675618813,259,GET Contact 1,200,OK,Load Test 1-1,text,true,,1056,518,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde48d0f9bb00135ff688,259,0,0
+1741675618813,259,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-1,,true,,1056,518,2,2,null,259,0,0
+1741675619072,275,PUT Contact 1,200,OK,Load Test 1-1,text,true,,1065,940,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde48d0f9bb00135ff688,275,0,0
+1741675618490,1050,POST Login 2,200,OK,Load Test 1-2,text,true,,1265,285,3,3,https://thinking-tester-contact-list.herokuapp.com/users/login,1050,0,737
+1741675619347,269,PATCH Contact 1,200,OK,Load Test 1-1,text,true,,1066,680,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde48d0f9bb00135ff688,269,0,0
+1741675619540,265,ADD Contact 2,201,Created,Load Test 1-2,text,true,,1061,855,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts,265,0,0
+1741675619540,265,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-2,,true,,1061,855,3,3,null,265,0,0
+1741675619617,264,DELETE Contact 1,200,OK,Load Test 1-1,text,true,,768,656,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde48d0f9bb00135ff688,264,0,0
+1741675619805,259,GET Contact 2,200,OK,Load Test 1-2,text,true,,1068,518,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4949cdc400138cba73,259,0,0
+1741675619805,259,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-2,,true,,1068,518,2,2,null,259,0,0
+1741675620064,263,PUT Contact 2,200,OK,Load Test 1-2,text,true,,1077,940,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4949cdc400138cba73,263,0,0
+1741675619482,1056,POST Login 3,200,OK,Load Test 1-3,text,true,,1277,285,3,3,https://thinking-tester-contact-list.herokuapp.com/users/login,1056,0,749
+1741675620327,264,PATCH Contact 2,200,OK,Load Test 1-2,text,true,,1078,680,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4949cdc400138cba73,264,0,0
+1741675620538,267,ADD Contact 3,201,Created,Load Test 1-3,text,true,,1073,855,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts,267,0,0
+1741675620538,267,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-3,,true,,1073,855,3,3,null,267,1,0
+1741675620591,273,DELETE Contact 2,200,OK,Load Test 1-2,text,true,,756,656,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4949cdc400138cba73,273,0,0
+1741675620806,261,GET Contact 3,200,OK,Load Test 1-3,text,true,,1056,518,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4a49cdc400138cba74,261,0,0
+1741675620806,261,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-3,,true,,1056,518,2,2,null,261,0,0
+1741675621067,267,PUT Contact 3,200,OK,Load Test 1-3,text,true,,1065,940,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4a49cdc400138cba74,267,0,0
+1741675620482,1076,POST Login 4,200,OK,Load Test 1-4,text,true,,1265,285,3,3,https://thinking-tester-contact-list.herokuapp.com/users/login,1076,0,758
+1741675621334,266,PATCH Contact 3,200,OK,Load Test 1-3,text,true,,1066,680,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4a49cdc400138cba74,266,0,0
+1741675621558,270,ADD Contact 4,201,Created,Load Test 1-4,text,true,,1061,855,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts,270,0,0
+1741675621558,270,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-4,,true,,1061,855,3,3,null,270,0,0
+1741675621600,265,DELETE Contact 3,200,OK,Load Test 1-3,text,true,,752,656,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4a49cdc400138cba74,265,0,0
+1741675621828,263,GET Contact 4,200,OK,Load Test 1-4,text,true,,1052,518,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4bd0f9bb00135ff68a,263,0,0
+1741675621828,263,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-4,,true,,1052,518,2,2,null,263,0,0
+1741675622091,277,PUT Contact 4,200,OK,Load Test 1-4,text,true,,1061,940,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4bd0f9bb00135ff68a,277,0,0
+1741675621480,1046,POST Login 5,200,OK,Load Test 1-5,text,true,,1261,285,3,3,https://thinking-tester-contact-list.herokuapp.com/users/login,1046,0,744
+1741675622369,276,PATCH Contact 4,200,OK,Load Test 1-4,text,true,,1062,680,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4bd0f9bb00135ff68a,276,0,0
+1741675622526,262,ADD Contact 5,201,Created,Load Test 1-5,text,true,,1057,855,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts,262,0,0
+1741675622526,262,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-5,,true,,1057,855,3,3,null,262,0,0
+1741675622645,268,DELETE Contact 4,200,OK,Load Test 1-4,text,true,,756,656,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4bd0f9bb00135ff68a,268,0,0
+1741675622789,262,GET Contact 5,200,OK,Load Test 1-5,text,true,,1056,518,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4c49cdc400138cba77,262,0,0
+1741675622789,262,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-5,,true,,1056,518,2,2,null,262,0,0
+1741675623051,279,PUT Contact 5,200,OK,Load Test 1-5,text,true,,1065,940,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4c49cdc400138cba77,279,0,0
+1741675622481,1048,POST Login 6,200,OK,Load Test 1-6,text,true,,1265,285,3,3,https://thinking-tester-contact-list.herokuapp.com/users/login,1048,0,746
+1741675623331,263,PATCH Contact 5,200,OK,Load Test 1-5,text,true,,1066,680,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4c49cdc400138cba77,263,0,0
+1741675623529,264,ADD Contact 6,201,Created,Load Test 1-6,text,true,,1061,855,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts,264,0,0
+1741675623529,264,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-6,,true,,1061,855,3,3,null,264,0,0
+1741675623595,266,DELETE Contact 5,200,OK,Load Test 1-5,text,true,,764,656,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4c49cdc400138cba77,266,0,0
+1741675623793,258,GET Contact 6,200,OK,Load Test 1-6,text,true,,1064,518,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4dd0f9bb00135ff68b,258,0,0
+1741675623793,258,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-6,,true,,1064,518,2,2,null,258,0,0
+1741675624051,268,PUT Contact 6,200,OK,Load Test 1-6,text,true,,1073,940,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4dd0f9bb00135ff68b,268,0,0
+1741675623486,1029,POST Login 7,200,OK,Load Test 1-7,text,true,,1273,285,3,3,https://thinking-tester-contact-list.herokuapp.com/users/login,1029,0,733
+1741675624320,265,PATCH Contact 6,200,OK,Load Test 1-6,text,true,,1074,680,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4dd0f9bb00135ff68b,265,0,0
+1741675624516,260,ADD Contact 7,201,Created,Load Test 1-7,text,true,,1069,855,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts,260,0,0
+1741675624516,260,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-7,,true,,1069,855,3,3,null,260,0,0
+1741675624586,263,DELETE Contact 6,200,OK,Load Test 1-6,text,true,,764,656,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4dd0f9bb00135ff68b,263,0,0
+1741675624776,257,GET Contact 7,200,OK,Load Test 1-7,text,true,,1052,518,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4ed0f9bb00135ff68c,257,0,0
+1741675624776,257,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-7,,true,,1052,518,2,2,null,257,0,0
+1741675625033,265,PUT Contact 7,200,OK,Load Test 1-7,text,true,,1061,940,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4ed0f9bb00135ff68c,265,0,0
+1741675624481,1070,POST Login 8,200,OK,Load Test 1-8,text,true,,1261,285,3,3,https://thinking-tester-contact-list.herokuapp.com/users/login,1070,0,763
+1741675625298,268,PATCH Contact 7,200,OK,Load Test 1-7,text,true,,1062,680,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4ed0f9bb00135ff68c,268,0,0
+1741675625551,274,ADD Contact 8,201,Created,Load Test 1-8,text,true,,1057,855,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts,274,0,0
+1741675625551,274,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-8,,true,,1057,855,3,3,null,274,1,0
+1741675625567,264,DELETE Contact 7,200,OK,Load Test 1-7,text,true,,752,656,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4ed0f9bb00135ff68c,264,0,0
+1741675625826,269,GET Contact 8,200,OK,Load Test 1-8,text,true,,1052,518,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4f49cdc400138cba7b,269,0,0
+1741675625826,269,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-8,,true,,1052,518,2,2,null,269,0,0
+1741675626096,270,PUT Contact 8,200,OK,Load Test 1-8,text,true,,1061,940,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4f49cdc400138cba7b,270,0,0
+1741675625491,1052,POST Login 9,200,OK,Load Test 1-9,text,true,,1261,285,3,3,https://thinking-tester-contact-list.herokuapp.com/users/login,1052,0,747
+1741675626367,279,PATCH Contact 8,200,OK,Load Test 1-8,text,true,,1062,680,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4f49cdc400138cba7b,279,0,0
+1741675626543,266,ADD Contact 9,201,Created,Load Test 1-9,text,true,,1057,855,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts,266,0,0
+1741675626543,266,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-9,,true,,1057,855,3,3,null,266,0,0
+1741675626646,268,DELETE Contact 8,200,OK,Load Test 1-8,text,true,,756,656,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde4f49cdc400138cba7b,268,0,0
+1741675626809,258,GET Contact 9,200,OK,Load Test 1-9,text,true,,1056,518,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde50d0f9bb00135ff68e,258,0,0
+1741675626809,258,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-9,,true,,1056,518,2,2,null,258,0,0
+1741675627067,269,PUT Contact 9,200,OK,Load Test 1-9,text,true,,1065,940,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde50d0f9bb00135ff68e,269,0,0
+1741675626481,1036,POST Login 10,200,OK,Load Test 1-10,text,true,,1265,285,2,2,https://thinking-tester-contact-list.herokuapp.com/users/login,1036,0,735
+1741675627336,271,PATCH Contact 9,200,OK,Load Test 1-9,text,true,,1066,680,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde50d0f9bb00135ff68e,271,0,0
+1741675627517,260,ADD Contact 10,201,Created,Load Test 1-10,text,true,,1061,855,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,260,0,0
+1741675627517,260,ADD Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-10,,true,,1061,855,2,2,null,260,0,0
+1741675627607,263,DELETE Contact 9,200,OK,Load Test 1-9,text,true,,760,656,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde50d0f9bb00135ff68e,263,0,0
+1741675627777,254,GET Contact 10,200,OK,Load Test 1-10,text,true,,1060,518,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde5149cdc400138cba7d,254,0,0
+1741675627777,254,GET Contact,200,"Number of samples in transaction : 1, number of failing samples : 0",Load Test 1-10,,true,,1060,518,1,1,null,254,0,0
+1741675628031,261,PUT Contact 10,200,OK,Load Test 1-10,text,true,,1069,940,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde5149cdc400138cba7d,261,0,0
+1741675628292,261,PATCH Contact 10,200,OK,Load Test 1-10,text,true,,1070,680,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde5149cdc400138cba7d,261,0,0
+1741675628553,260,DELETE Contact 10,200,OK,Load Test 1-10,text,true,,760,656,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/67cfde5149cdc400138cba7d,260,0,0
